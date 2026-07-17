@@ -1,0 +1,21 @@
+{
+  "workshoptitle": "Overview of Oracle APEX Components",
+  "help": "livelabs-help_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "filename": "../../introduction.md",
+      "description": "Review the purpose and flow of the APEX Components Overview."
+    },
+    {
+      "title": "Lab 1: APEX Components Overview",
+      "filename": "../../1-apex-components-overview.md",
+      "description": "Tour the main APEX components, browse Gallery apps, and install a professional reference application."
+    },
+    {
+      "title": "Need Help?",
+      "filename": "https://livelabs.oracle.com/cdn/common/labs/need-help/need-help-freetier.md",
+      "description": "Solutions to common problems and directions for receiving LiveLabs help."
+    }
+  ]
+}

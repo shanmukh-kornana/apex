@@ -1,0 +1,41 @@
+{
+  "workshoptitle": "Introduction to Data Reporter",
+  "help": "livelabs-help_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "filename": "../../introduction.md",
+      "description": "Review the purpose, architecture, and flow of the HR Analytics Data Reporter workshop."
+    },
+    {
+      "title": "Lab 1: Data Reporter Authentication",
+      "filename": "../../1-data-reporter-authentication.md",
+      "description": "Understand Data Reporter personas and configure Oracle APEX Accounts as the current authentication scheme."
+    },
+    {
+      "title": "Lab 2: Reporting Views and Application",
+      "filename": "../../2-create-reporting-views.md",
+      "description": "Replace the temporary HAA application, create reporting views and a governed dataset, and create the Data Reporter application."
+    },
+    {
+      "title": "Lab 3: Data Reporter Roles and Users",
+      "filename": "../../3-manage-data-reporter-roles.md",
+      "description": "Create the Data Reporter administrator and assign editor and viewer access to the HR Analytics App."
+    },
+    {
+      "title": "Lab 4: Build HR Analytics Reports",
+      "filename": "../../4-build-data-reporter-reports.md",
+      "description": "Create four HR reports, group-by summaries, charts, facets, and Primary Default settings."
+    },
+    {
+      "title": "Lab 5: Publish and Review",
+      "filename": "../../5-publish-and-review.md",
+      "description": "Publish every report and validate the completed application as the end-user viewer."
+    },
+    {
+      "title": "Need Help?",
+      "filename": "https://livelabs.oracle.com/cdn/common/labs/need-help/need-help-freetier.md",
+      "description": "Solutions to common problems and directions for receiving LiveLabs help."
+    }
+  ]
+}

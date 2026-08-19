@@ -1,0 +1,41 @@
+{
+  "workshoptitle": "Themes and Templates",
+  "help": "livelabs-help_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "filename": "../../introduction.md",
+      "description": "Review the purpose, architecture, and flow of the Themes and Templates workshop."
+    },
+    {
+      "title": "Lab 1: Brand ESS with Theme Roller",
+      "filename": "../../1-brand-ess-theme-roller.md",
+      "description": "Create ESS Light and ESS Dark theme styles and allow end users to choose a style."
+    },
+    {
+      "title": "Lab 2: State-Aware ESS Status Badges",
+      "filename": "../../2-custom-css-ess.md",
+      "description": "Convert My Onboarding Tasks to an Interactive Report and display accessible semantic status badges."
+    },
+    {
+      "title": "Lab 3: ESS Home Metric Cards",
+      "filename": "../../3-ess-home-metric-cards.md",
+      "description": "Build four live onboarding and leave KPI cards on ESS Home."
+    },
+    {
+      "title": "Lab 4: Onboarding Progress Template Component",
+      "filename": "../../4-onboarding-progress-template-component.md",
+      "description": "Create a reusable, accessible Onboarding Progress Bar Template Component."
+    },
+    {
+      "title": "Lab 5: TAP Branding and Metric Cards",
+      "filename": "../../5-tap-branding-metric-cards.md",
+      "description": "Apply a corporate TAP theme and add four recruiting KPI cards."
+    },
+    {
+      "title": "Need Help?",
+      "filename": "https://livelabs.oracle.com/cdn/common/labs/need-help/need-help-freetier.md",
+      "description": "Solutions to common problems and directions for receiving LiveLabs help."
+    }
+  ]
+}

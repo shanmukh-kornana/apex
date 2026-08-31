@@ -1,0 +1,31 @@
+{
+  "workshoptitle": "AI Agents and AI Tools",
+  "help": "livelabs-help_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "filename": "../../introduction.md",
+      "description": "Review the Module 20 architecture, applications, prerequisites, and learning goals."
+    },
+    {
+      "title": "Lab 1: CV Screening Agent in TAP",
+      "filename": "../../1-cv-screening-agent-tap.md",
+      "description": "Create a tool-enabled CV Screening Agent and integrate it with Candidate Pipeline."
+    },
+    {
+      "title": "Lab 2: Onboarding Assistant in ESS",
+      "filename": "../../2-onboarding-assistant-ess.md",
+      "description": "Create an Onboarding Assistant that retrieves tasks, answers policy questions, and completes tasks safely."
+    },
+    {
+      "title": "Lab 3: Weekly HR AI Summary",
+      "filename": "../../3-weekly-hr-ai-summary.md",
+      "description": "Create an HR Admin-only summary region that turns current HR metrics into a concise weekly briefing."
+    },
+    {
+      "title": "Need Help?",
+      "filename": "https://livelabs.oracle.com/cdn/common/labs/need-help/need-help-freetier.md",
+      "description": "Solutions to common problems and directions for receiving LiveLabs help."
+    }
+  ]
+}

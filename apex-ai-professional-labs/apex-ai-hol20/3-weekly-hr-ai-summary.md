@@ -19,7 +19,7 @@ In this lab, you will:
 
 ## Task 1: Open ESS Home in Page Designer
 
-1. In App Builder, open **20_03: Employee Self-Service Portal**.
+1. In App Builder, open **Employee Self-Service Portal**.
 
     ![Open the Lab 3 ESS application](images/lab3-01-open-ess-app.png " ")
 

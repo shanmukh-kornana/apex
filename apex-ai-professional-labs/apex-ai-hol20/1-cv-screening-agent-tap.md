@@ -305,7 +305,7 @@ TMS_JOBS.JOB_ID
 
 ## Task 7: Save the Candidate Pipeline Default Report Layout
 
-1. Run TAP and open **Candidate Pipeline**.
+1. Run the application and open the Candidate Pipeline report.
 
 2. In the Interactive Report, select **Actions > Columns**.
 
@@ -386,21 +386,31 @@ TMS_JOBS.JOB_ID
 
 2. Sign in as a user who satisfies the TA Admin authorization scheme.
 
-3. Open **Candidate Pipeline** and note the current values for candidate `101`.
+3. Click on the **Screen Candidate** button.
 
-4. Select **Screen Candidate**.
-
-5. In the AI Assistant dialog, enter:
+4. In the AI Assistant dialog, first enter this prompt to retrieve the candidate information:
 
     ```text
-    Screen candidate 101 and save the final screening score and summary to their candidate record.
+    Use get_candidate_information to show the information for candidate 101.
     ```
 
-6. If the assistant asks for confirmation before using `update_ai_score`, review the proposed candidate ID, score, and summary. Confirm the update only when the values are correct.
+5. Review the returned candidate information and identify its requisition ID. Then enter this prompt, replacing `<requisition_id>` with the returned value:
 
-7. Close the dialog after the assistant reports that it updated the record.
+    ```text
+    Use get_job_requirements to show the job requirements for requisition <requisition_id>.
+    ```
 
-8. Confirm that Candidate Pipeline refreshes and displays the new **AI Score** and **AI Summary** for candidate `101`.
+6. Review the job requirements. Then enter this prompt to evaluate the candidate and save the result:
+
+    ```text
+    Evaluate candidate 101 against the job requirements. Use update_ai_score to save the final screening score and summary to the candidate record.
+    ```
+
+7. If the assistant asks for confirmation before using `update_ai_score`, review the proposed candidate ID, score, and summary. Confirm the update only when the values are correct.
+
+8. Close the dialog after the assistant reports that it updated the record.
+
+9. Confirm that Candidate Pipeline refreshes and displays the new **AI Score** and **AI Summary** for candidate `101`.
 
 The completed flow is:
 

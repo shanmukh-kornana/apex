@@ -19,7 +19,7 @@ In this lab, you will:
 
 ## Task 1: Create and Configure the Onboarding Assistant
 
-1. In App Builder, open **20_02: Employee Self-Service Portal**.
+1. In App Builder, open **Employee Self-Service Portal**.
 
     ![Open the ESS application](images/lab2-01-open-ess-app.png " ")
 
@@ -102,9 +102,7 @@ In this lab, you will:
     remaining tasks, due tasks or overdue tasks.
     ```
 
-4. Do not create an `EMPLOYEE_ID` parameter. The query resolves the employee from `APP_USER`.
-
-5. For **Source Type**, select **SQL Query**, and enter:
+4. For **Source Type**, select **SQL Query**, and enter:
 
     ```sql
     SELECT
@@ -127,7 +125,7 @@ In this lab, you will:
 
     The filter uses the authenticated username. It does not trust an employee ID supplied by the model or browser.
 
-6. Save the tool.
+5. Save the tool.
 
     ![Verify get my tasks](images/lab2-07-get-my-tasks.png " ")
 

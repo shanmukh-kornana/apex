@@ -10,7 +10,7 @@ Estimated Time: 20 minutes
 
 In this lab, you will:
 
-- Add `AI_SUMMARY` to `TMS_CANDIDATES`.
+- Add an `AI_SUMMARY` column to the `TMS_CANDIDATES` table.
 - Create the CV Screening Agent.
 - Create three On-Demand AI tools.
 - Add AI Score and AI Summary to Candidate Pipeline.
@@ -37,15 +37,11 @@ In this lab, you will:
     );
     ```
 
-    The `AI_SCORE` column already exists. This statement adds the text that explains the score.
-
-5. Confirm that SQL Commands reports a successful table alteration.
-
     > **Note:** If `AI_SUMMARY` already exists, do not run the statement again. Continue with the existing column.
 
 ## Task 2: Create and Configure the CV Screening Agent
 
-1. Select **App Builder**, and open **20_01 Talent Acquisition Portal**.
+1. Select **App Builder**, and open **Talent Acquisition Portal**.
 
 2. Select **Shared Components**.
 
@@ -98,13 +94,7 @@ In this lab, you will:
     Use update_ai_score only after completing the evaluation.
     ```
 
-7. Open **Advanced**. Unlock **Static ID** if required, and enter `CV_SCREENING_AGENT`.
-
-    ![Configure the CV Screening Agent static ID](images/lab1-03-agent-static-id.png " ")
-
-    > **Note:** APEX can normalize a generated Static ID to lowercase words separated by hyphens. Use the exact identifier required by your instructor when the field is editable.
-
-8. Select **Create** or **Apply Changes** to save the agent.
+7. Select **Create** or **Apply Changes** to save the agent.
 
 ## Task 3: Create the Get Candidate Information Tool
 

@@ -6,11 +6,7 @@ In this workshop, you will replace simple Dynamic Action chatbots with Oracle AP
 
 Estimated Workshop Time: 90 minutes
 
-### Where We Are
-
-The Talent Acquisition Portal (TAP) and Employee Self-Service Portal (ESS) already contain the core pages, reports, charts, security schemes, and simple chatbot interactions created in earlier modules. Module 20 adds application-aware AI features that work with live Talent Management System data.
-
-### What You Will Build
+### Objectives
 
 In this workshop, you will:
 
@@ -20,19 +16,11 @@ In this workshop, you will:
 - Create an Onboarding Assistant Agent in ESS.
 - Add tools that retrieve employee tasks, search HR policies, and complete a task safely.
 - Add the native AI Assistant presentation to ESS Home.
-- Build an HR Admin-only Weekly HR Summary that uses live metrics and **Generate Text with AI**.
+- Build an HR Admin-only Weekly HR Summary that uses live metrics and Generate Text with AI.
 
-### Workshop Applications
+### Where We Are
 
-Use one reference application for each lab:
-
-| Lab | Application | App ID |
-| --- | --- | ---: |
-| Lab 1 | 20_01 Talent Acquisition Portal | 201 |
-| Lab 2 | 20_02: Employee Self-Service Portal | 202 |
-| Lab 3 | 20_03: Employee Self-Service Portal | 203 |
-
-> **Note:** Application IDs can differ in another workshop environment. Match the application name when the ID differs.
+The Talent Acquisition Portal (TAP) and Employee Self-Service Portal (ESS) already contain the core pages, reports, charts, security schemes, and simple chatbot interactions created in earlier modules. This lab adds application-aware AI features that work with live Talent Management System data.
 
 ### Prerequisites
 
@@ -42,14 +30,9 @@ Use one reference application for each lab:
 - An employee test account whose login name matches `TMS_EMPLOYEES.EMAIL`.
 - Access to an HR Admin account for Lab 3.
 
-### Source Scope Note
-
-The Module 20 architecture overview also names Select AI and an ESS AI Logs page. The supplied Module 20 tasks do not define their configuration. This workshop implements the three complete, testable labs supplied for Module 20.
-
 ## Learn More
 
 - [Oracle APEX Documentation](https://docs.oracle.com/en/database/oracle/apex/)
-- [Oracle APEX Generative AI](https://apex.oracle.com/en/platform/features/generative-ai/)
 
 ## Acknowledgements
 

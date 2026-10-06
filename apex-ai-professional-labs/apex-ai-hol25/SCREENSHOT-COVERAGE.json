@@ -1,0 +1,1185 @@
+[
+  {
+    "lab": 1,
+    "task": 1,
+    "point": 1,
+    "text": "In your workspace, open **Employee Self-Service Portal**.",
+    "status": "Captured",
+    "images": [
+      "1_1_1_open_ESS.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 1,
+    "point": 2,
+    "text": "On the Application home page, click **Edit Application Definition** to the right of the application name.",
+    "status": "Captured",
+    "images": [
+      "1_1_2_edit_application_definition.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 1,
+    "point": 3,
+    "text": "On the **Definition** tab, locate **Properties** and verify that **Friendly URLs** is **On**. Click **Apply Changes**.",
+    "status": "Captured",
+    "images": [
+      "1_1_3_friendly_urls.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 1,
+    "point": 4,
+    "text": "Return to the ESS Application home page.",
+    "status": "Captured",
+    "images": [
+      "1_1_4_return_application_home.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 2,
+    "point": 1,
+    "text": "Click **Shared Components**.",
+    "status": "Captured",
+    "images": [
+      "1_2_1_shared_components.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 2,
+    "point": 2,
+    "text": "Under **User Interface**, click **Progressive Web App**.",
+    "status": "Captured",
+    "images": [
+      "1_2_2_progressive_web_app.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 2,
+    "point": 3,
+    "text": "Under **General**, configure:",
+    "status": "Captured",
+    "images": [
+      "1_2_3_enable_pwa_installable.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 2,
+    "point": 4,
+    "text": "Click **Installability**.",
+    "status": "Captured",
+    "images": [
+      "1_2_4_continue_installability.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 3,
+    "point": 1,
+    "text": "Under **Installability**, enter:",
+    "status": "Captured",
+    "images": [
+      "1_3_1_installability_values.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 3,
+    "point": 2,
+    "text": "For **Theme Color**, click **Custom** and enter `#10B981` in **Custom Theme Color**.",
+    "status": "Captured",
+    "images": [
+      "1_3_2_custom_theme_color.png",
+      "1_3_2_custom_background_color.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 3,
+    "point": 3,
+    "text": "Under **Service Worker Configuration**, verify that **Service Worker** is **Default**.",
+    "status": "Captured",
+    "images": [
+      "1_3_3_default_service_worker.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 3,
+    "point": 4,
+    "text": "Click **Apply Changes**.",
+    "status": "Captured",
+    "images": [
+      "1_3_4_apply_changes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 4,
+    "point": 1,
+    "text": "Click the **Shared Components** icon to return to **Shared Components**.",
+    "status": "Captured",
+    "images": [
+      "1_4_1_return_shared_components.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 4,
+    "point": 2,
+    "text": "Under **User Interface**, click **User Interface Attributes**.",
+    "status": "Captured",
+    "images": [
+      "1_4_2_user_interface_attributes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 4,
+    "point": 3,
+    "text": "Locate **Icon**, then click **Change Icon**. If you are replacing an uploaded icon, **Edit** also opens the **Edit Application Icon** dialog.",
+    "status": "Captured",
+    "images": [
+      "1_4_3_change_icon.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 4,
+    "point": 4,
+    "text": "You can upload an icon or select one from the APEX icon library. In this lab, select the **People** icon from the library and choose a green color.",
+    "status": "Captured",
+    "images": [
+      "1_4_4_library_icon_fallback.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 4,
+    "point": 5,
+    "text": "Click **Save Icon**, then click **Apply Changes** on the User Interface page.",
+    "status": "Captured",
+    "images": [
+      "1_4_5_save_icon.png",
+      "1_4_5_apply_changes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 4,
+    "point": 6,
+    "text": "Verify that the **Icon** region shows your selection. APEX generates the required sizes for the application icon, PWA icon, favicon, and supported device icons.",
+    "status": "Captured",
+    "images": [
+      "1_4_6_verify_generated_icons.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 1,
+    "text": "Return to the ESS Application home page in **App Builder** and click **Run Application**. Run ESS in a supported browser and sign in as the employee user.",
+    "status": "Captured",
+    "images": [
+      "1_5_1_run_ESS_app.png",
+      "1_5_1_employee_sign_in.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 2,
+    "text": "Verify that ESS opens and displays the employee's Home page. Use Chrome for the device emulation steps below.",
+    "status": "Captured",
+    "images": [
+      "1_5_2_opened_application.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 3,
+    "text": "Right-click an area of the ESS page, such as the **Your Onboarding Progress** heading, and click **Inspect** in Chrome's context menu. The **Developer Tools** panel opens.",
+    "status": "Captured",
+    "images": [
+      "1_5_3_right_click_application.png",
+      "1_5_3_developer_tools.png"
+    ],
+    "note": "Right-click target and resulting Developer Tools captured; native context-menu popup is not included in the window capture."
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 4,
+    "text": "In Developer Tools, click **Toggle device toolbar**, the phone-and-tablet icon. If device emulation is already enabled, keep it enabled. In the device toolbar above the page, choose **Responsive**, enter **390** for the width and **844** for the height, and press **Enter** after each value. You can change these dimensions to review other screen sizes.",
+    "status": "Captured",
+    "images": [
+      "1_5_4_toggle_device_toolbar.png",
+      "1_5_4_device_dimensions.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 5,
+    "text": "Click **Install App** in the navigation bar or its menu on a small screen. Follow the browser's installation instructions and confirm installation.",
+    "status": "Captured",
+    "images": [
+      "1_5_5_install_app.png"
+    ],
+    "note": "Install App control captured. Browser installation confirmation was not recaptured; application is already installed."
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 6,
+    "text": "Open ESS from the installed application icon. Double-click **Employee Self-Service Portal**.",
+    "status": "Captured",
+    "images": [
+      "1_5_6_installed_icon.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 7,
+    "text": "Sign in again if prompted. Verify that ESS opens in its own application window without the normal browser address bar on a device that supports **Standalone** mode.",
+    "status": "Captured",
+    "images": [
+      "1_5_7_standalone_window.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 1,
+    "task": 5,
+    "point": 8,
+    "text": "Open the navigation menu if it is collapsed. Expand **My Work** and click **My Onboarding Tasks**. Then click **Home** to return to the employee Home page and confirm that navigation works inside the installed application.",
+    "status": "Captured",
+    "images": [
+      "1_5_8_installed_navigation.png",
+      "1_5_8_installed_tasks.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 1,
+    "text": "In your workspace, open **Employee Self-Service Portal**. Click **Edit Application Definition** on the application home page.",
+    "status": "Captured",
+    "images": [
+      "2_1_1_edit_application_definition.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 2,
+    "text": "Click the **Security** tab.",
+    "status": "Captured",
+    "images": [
+      "2_1_2_open_security_attributes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 3,
+    "text": "Click **Session Management**.",
+    "status": "Captured",
+    "images": [
+      "2_1_3_session_management.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 4,
+    "text": "Set **Rejoin Sessions** to **Enabled for All Sessions**. If this value is rejected, ask your facilitator to complete the instance prerequisite before continuing.",
+    "status": "Captured",
+    "images": [
+      "2_1_4_rejoin_sessions.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 5,
+    "text": "Set **Deep Linking** to **Enabled** so that a shortcut can open its requested page after the employee signs in.",
+    "status": "Captured",
+    "images": [
+      "2_1_5_deep_linking.png"
+    ],
+    "note": "Enabled captured in an unsaved form; live Deep Linking remains Disabled."
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 6,
+    "text": "Follow the numbered boxes: click **Browser Security** (1), set **Embed in Frames** to **Deny** (2), click **Apply Changes** (3), and then click the **Shared Components** icon (4).",
+    "status": "Captured",
+    "images": [
+      "2_1_6_browser_security.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 1,
+    "point": 7,
+    "text": "Under **User Interface**, click **Progressive Web App**. Click **Installability**, then locate **Shortcuts**.",
+    "status": "Captured",
+    "images": [
+      "2_1_7_open_progressive_web_app.png",
+      "2_1_7_locate_shortcuts.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 2,
+    "point": 1,
+    "text": "Click **Add Shortcut**.",
+    "status": "Captured",
+    "images": [
+      "2_2_1_add_shortcut.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 2,
+    "point": 2,
+    "text": "Enter:",
+    "status": "Captured",
+    "images": [
+      "2_2_2_my_tasks_values.png",
+      "2_2_2_target_url_selector.png",
+      "2_2_2_select_my_tasks_page.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 2,
+    "point": 3,
+    "text": "Click **Create**. Verify that the shortcut appears in **Shortcuts**.",
+    "status": "Captured",
+    "images": [
+      "2_2_3_create_my_tasks.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 3,
+    "point": 1,
+    "text": "Click **Add Shortcut** again.",
+    "status": "Captured",
+    "images": [
+      "2_3_1_add_leave_shortcut.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 3,
+    "point": 2,
+    "text": "Configure:",
+    "status": "Captured",
+    "images": [
+      "2_3_2_leave_shortcut_values.png",
+      "2_3_2_select_leave_request.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 3,
+    "point": 3,
+    "text": "Click **Create**.",
+    "status": "Captured",
+    "images": [
+      "2_3_3_create_leave_shortcut.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 4,
+    "point": 1,
+    "text": "Click **Add Shortcut**.",
+    "status": "Captured",
+    "images": [
+      "2_4_1_add_payslip_shortcut.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 4,
+    "point": 2,
+    "text": "Configure:",
+    "status": "Captured",
+    "images": [
+      "2_4_2_payslip_shortcut_values.png",
+      "2_4_2_select_payslip_page.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 4,
+    "point": 3,
+    "text": "Click **Create**. Verify that the three shortcuts appear in sequence order: **My Tasks**, **Apply for Leave**, **My Payslip**.",
+    "status": "Captured",
+    "images": [
+      "2_4_3_create_payslip.png",
+      "2_4_3_verify_three_shortcuts.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 1,
+    "text": "Run **Employee Self-Service Portal** from App Builder and sign in as the employee. Open **Home**. In Chrome, right-click the application and click **Inspect**. Click **Toggle device toolbar**, select **Responsive**, and set the width to **390** and height to **844**.",
+    "status": "Captured",
+    "images": [
+      "2_5_1_run_application.png",
+      "2_5_1_device_dimensions.png",
+      "2_5_1_add_device_pixel_ratio.png"
+    ],
+    "note": "Full user-supplied ESS screenshot; More options and Add device pixel ratio outlined without resizing."
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 2,
+    "text": "With **Home** open, click **More options** (the three dots on the device toolbar) and select **Capture screenshot**. Rename the downloaded PNG to `ess-home-narrow.png`. Use **Capture screenshot**, which captures the current viewport, rather than **Capture full size screenshot**.",
+    "status": "Captured",
+    "images": [
+      "2_5_2_ess_home.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 3,
+    "text": "Click **Main Navigation**, click the arrow beside **My Work**, and click **My Onboarding Tasks**. Keep the viewport at **390 \u00d7 844** and repeat **Capture screenshot**. Rename the file to `ess-my-tasks-narrow.png`.",
+    "status": "Captured",
+    "images": [
+      "2_5_3_mobile_navigation.png",
+      "2_5_3_my_tasks.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 4,
+    "text": "Return to **Progressive Web App** and locate **Screenshots** under **Installability**.",
+    "status": "Captured",
+    "images": [
+      "2_5_4_locate_screenshots.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 5,
+    "text": "Click **Add Screenshot** and configure the following values. Click **Upload a Screenshot**, choose `ess-home-narrow.png`, and click **Open** in the file picker. Click **Create**.",
+    "status": "Captured",
+    "images": [
+      "2_5_5_add_home_screenshot.png",
+      "2_5_5_home_screenshot_values.png"
+    ],
+    "note": "Actual new-record dialog shows settings, upload control, and Create before file selection."
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 6,
+    "text": "Click **Add Screenshot**, upload `ess-my-tasks-narrow.png`, and configure the following values. Click **Create**.",
+    "status": "Captured",
+    "images": [
+      "2_5_6_my_tasks_screenshot_values.png"
+    ],
+    "note": "Actual new-record dialog shows settings, upload control, and Create before file selection."
+  },
+  {
+    "lab": 2,
+    "task": 5,
+    "point": 7,
+    "text": "Click **Apply Changes** to save remaining application settings.",
+    "status": "Captured",
+    "images": [
+      "2_5_7_apply_changes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 2,
+    "task": 6,
+    "point": 1,
+    "text": "Close and reopen the installed ESS application to allow its browser to refresh the application metadata.",
+    "status": "Captured",
+    "images": [
+      "2_6_1_installed_ess.png"
+    ],
+    "note": "Previously captured installed ESS image reused. Reopening and metadata refresh are device checks."
+  },
+  {
+    "lab": 2,
+    "task": 6,
+    "point": 2,
+    "text": "On a device that supports PWA shortcuts, long-press the installed **Employee Self-Service Portal** icon on the home screen, or right-click its icon in the desktop taskbar or application launcher. Use the installed application's shortcut menu, rather than a downloaded file's context menu. Shortcut support varies by browser and operating system; use the supported test device supplied by your facilitator if your device does not show this menu.",
+    "status": "Pending capture",
+    "images": [],
+    "note": "Installed operating-system shortcut menu cannot be captured headlessly; supported-device capture remains pending."
+  },
+  {
+    "lab": 2,
+    "task": 6,
+    "point": 3,
+    "text": "Verify that **My Tasks**, **Apply for Leave**, and **My Payslip** appear in the shortcut menu.",
+    "status": "Pending capture",
+    "images": [],
+    "note": "Installed operating-system shortcut menu cannot be captured headlessly; supported-device capture remains pending."
+  },
+  {
+    "lab": 2,
+    "task": 6,
+    "point": 4,
+    "text": "Open **My Tasks** and verify that **My Onboarding Tasks** appears. For the other pages, open **Main Navigation**, expand **Leave**, and click **Leave Request**. Then expand **Personal** and click **My Payslip**. Sign in as the employee when prompted. Verify the page heading for each destination, rather than accepting a return to **Home**.",
+    "status": "Captured",
+    "images": [
+      "2_6_4_my_onboarding_tasks.png",
+      "2_6_4_leave_request.png",
+      "2_6_4_my_payslip.png"
+    ],
+    "note": "Pages 2, 5, and 6 captured in an isolated background browser. Leave form captured after dismissing existing missing ESS_UTIL.CALCULATE_LEAVE_BALANCE error. My Payslip has a heading but no payslip content. OS shortcut launch remains unverified."
+  },
+  {
+    "lab": 2,
+    "task": 6,
+    "point": 5,
+    "text": "On a browser that displays PWA installation screenshots, open the installation prompt and verify the **ESS Home** and **My Tasks** images. If ESS is already installed, use a separate supported test device or browser profile for this check. A browser that omits promotional screenshots cannot verify this part of the lab.",
+    "status": "Pending capture",
+    "images": [],
+    "note": "Promotional installation prompt is native browser/device UI and cannot be captured headlessly; supported-device capture remains pending."
+  },
+  {
+    "lab": 3,
+    "task": 1,
+    "point": 1,
+    "text": "In your workspace, open **Employee Self-Service Portal**. Click the **Shared Components** icon on the Application home page.",
+    "status": "Captured",
+    "images": [
+      "3_1_1_shared_components.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 1,
+    "point": 2,
+    "text": "Under **User Interface**, click **Progressive Web App**.",
+    "status": "Captured",
+    "images": [
+      "3_1_2_progressive_web_app.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 1,
+    "point": 3,
+    "text": "Click **Push Notifications**. Set **Enable Push Notifications** to **On**.",
+    "status": "Captured",
+    "images": [
+      "3_1_3_enable_push_notifications.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 2,
+    "point": 1,
+    "text": "Under **Credentials**, click **Generate Credentials** to create a public/private key pair. If a credential is already selected, keep it and continue to Step 3. Regenerating the keys requires users to subscribe again.",
+    "status": "Captured",
+    "images": [
+      "3_2_1_generate_credentials.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 2,
+    "point": 2,
+    "text": "In the confirmation dialog, click **Generate Credentials**.",
+    "status": "Captured",
+    "images": [
+      "3_2_2_confirm_generate_credentials.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 2,
+    "point": 3,
+    "text": "Verify that the generated credential is selected in **Credentials**. In **Contact Email**, you can enter the application owner's email address for the push service provider to use if it needs to contact the owner.",
+    "status": "Captured",
+    "images": [
+      "3_2_3_credentials_contact_email.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 3,
+    "point": 1,
+    "text": "Next to **Settings Page**, click **Add Settings Page**. If a settings page is already selected, continue to Step 3.",
+    "status": "Captured",
+    "images": [
+      "3_3_1_add_settings_page.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 3,
+    "point": 2,
+    "text": "In **Create Push Notification Settings Page**, configure the following values, then click **Create**. Use unused page numbers if these numbers are already assigned to other pages.",
+    "status": "Captured",
+    "images": [
+      "3_3_2_create_settings_pages.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 3,
+    "point": 3,
+    "text": "Verify that **Settings Page** shows **20010. Push Notifications**, or the page number you selected. Click **Apply Changes**.",
+    "status": "Captured",
+    "images": [
+      "3_3_3_apply_changes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 4,
+    "point": 1,
+    "text": "Return to the Application home page by clicking **Application 301** in the breadcrumb. Click **Run Application**. Use the device on which you want to receive notifications.",
+    "status": "Captured",
+    "images": [
+      "3_4_1_run_application.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 4,
+    "point": 2,
+    "text": "Enter the employee username and password, then click **Sign In**. The authenticated username, represented by `APP_USER`, identifies the notification recipient.",
+    "status": "Captured",
+    "images": [
+      "3_4_2_employee_sign_in.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 4,
+    "point": 3,
+    "text": "Click the employee account menu in the application header, then click **Settings**.",
+    "status": "Captured",
+    "images": [
+      "3_4_3_open_settings.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 4,
+    "point": 4,
+    "text": "In **Settings**, click **Push Notifications**.",
+    "status": "Captured",
+    "images": [
+      "3_4_4_push_notifications.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 4,
+    "point": 5,
+    "text": "Select **Enable push notifications on this device**. When the browser requests notification permission, click **Allow**.",
+    "status": "Captured",
+    "images": [
+      "3_4_5_enable_device_notifications.png",
+      "3_4_5_allow_notifications.png"
+    ],
+    "note": "Existing native browser Allow prompt reused and cropped to the complete permission popup; Chrome tabs, debug banner, and loading indicator excluded."
+  },
+  {
+    "lab": 3,
+    "task": 4,
+    "point": 6,
+    "text": "Verify that **Enable push notifications on this device** is selected. Keep the device connected for the notification test. Each receiving device must be subscribed separately.",
+    "status": "Captured",
+    "images": [
+      "3_4_6_device_enabled.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 5,
+    "point": 1,
+    "text": "Return to ESS in App Builder. Click the **Shared Components** icon.",
+    "status": "Captured",
+    "images": [
+      "3_5_1_shared_components.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 5,
+    "point": 2,
+    "text": "Under **Workflows and Automations**, click **Automations**.",
+    "status": "Captured",
+    "images": [
+      "3_5_2_automations.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 5,
+    "point": 3,
+    "text": "Click **Task Overdue**.",
+    "status": "Captured",
+    "images": [
+      "3_5_3_open_task_overdue.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 5,
+    "point": 4,
+    "text": "Click **Settings**. Verify that **Actions Initiated On** is **Query**.",
+    "status": "Captured",
+    "images": [
+      "3_5_4_actions_initiated_query.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 5,
+    "point": 5,
+    "text": "Click **Source**. Review the SQL query and confirm that it returns these columns. Preserve the other columns and conditions used by the existing actions.",
+    "status": "Captured",
+    "images": [
+      "3_5_5_source_columns.png"
+    ],
+    "note": "UPPER(e.email) mapping shown in an unsaved form, then discarded. Live automation query remains unchanged; apply the documented mapping before testing."
+  },
+  {
+    "lab": 3,
+    "task": 5,
+    "point": 6,
+    "text": "Click **Action Execution**. Verify that **Execute Actions When** is **Rows returned**.",
+    "status": "Captured",
+    "images": [
+      "3_5_6_rows_returned.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 6,
+    "point": 1,
+    "text": "Click **Actions**, then **Add Action**.",
+    "status": "Captured",
+    "images": [
+      "3_6_1_add_action.png"
+    ],
+    "note": "Current action list already contains the push action. Initial-creation instructions illustrated without creating a duplicate."
+  },
+  {
+    "lab": 3,
+    "task": 6,
+    "point": 2,
+    "text": "On **Edit Action**, configure the following values, then click **Create**. Execution sequence `30` places the push action after **Update Status** (`10`) and **Send E-Mail** (`20`).",
+    "status": "Captured",
+    "images": [
+      "3_6_2_create_push_action.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 6,
+    "point": 3,
+    "text": "Verify that **Send Overdue Task Push Notification** appears after the existing actions. Click **Save Changes**.",
+    "status": "Captured",
+    "images": [
+      "3_6_3_save_changes.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 7,
+    "point": 1,
+    "text": "Before running the automation, review the tasks selected by its query. Open **SQL Workshop \u2192 SQL Commands** and run the following read-only query. Use the same conditions as the automation if your Module 16 query differs.",
+    "status": "Captured",
+    "images": [
+      "3_7_1_review_matching_rows.png"
+    ],
+    "note": "Read-only eligibility query executed successfully and returned no rows. Fresh eligible task required; no task was changed."
+  },
+  {
+    "lab": 3,
+    "task": 7,
+    "point": 2,
+    "text": "Return to **App Builder \u2192 Employee Self-Service Portal \u2192 Shared Components \u2192 Automations \u2192 Task Overdue**. Click **Save and Run** to execute the automation in the background. Keep its existing schedule configuration for this manual test.",
+    "status": "Captured",
+    "images": [
+      "3_7_2_save_and_run.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 3,
+    "task": 7,
+    "point": 3,
+    "text": "Click **Automations** in the breadcrumb, then **Execution Log**. Locate the latest run with **Automation Static ID** `task-overdue`. Verify **Status** is **Success**, **Successful Rows** is greater than zero, and **Error Rows** is `0`. The number of successful rows depends on the eligible tasks in your workspace.",
+    "status": "Captured",
+    "images": [
+      "3_7_3_open_execution_log.png",
+      "3_7_3_execution_log.png"
+    ],
+    "note": "Historical run used for navigation illustration: seven successful rows after the prior approved email bypass. Email restored. This does not establish delivery or a successful full-action run."
+  },
+  {
+    "lab": 3,
+    "task": 7,
+    "point": 4,
+    "text": "Click the number in the run's **Messages** column to open **Log Messages**. Review any messages. If no messages were logged, the page shows **No detail messages available for this execution.** A successful execution does not confirm that the device received the notification.",
+    "status": "Captured",
+    "images": [
+      "3_7_4_log_messages.png"
+    ],
+    "note": "Historical run used for navigation illustration: seven successful rows after the prior approved email bypass. Email restored. This does not establish delivery or a successful full-action run."
+  },
+  {
+    "lab": 3,
+    "task": 7,
+    "point": 5,
+    "text": "On the subscribed device, verify that a notification appears with the following title and body. Confirm that the task name matches a task selected for this employee.",
+    "status": "Pending capture",
+    "images": [],
+    "note": "Actual received notification and notification click require a subscribed device; unavailable in headless mode. Delivery remains unverified."
+  },
+  {
+    "lab": 3,
+    "task": 7,
+    "point": 6,
+    "text": "Click the notification and verify that ESS opens. Sign in if prompted. Open **My Work \u2192 My Onboarding Tasks** from the application navigation menu and confirm that the notified task has **Overdue** status.",
+    "status": "Pending capture",
+    "images": [],
+    "note": "Actual received notification and notification click require a subscribed device; unavailable in headless mode. Delivery remains unverified."
+  },
+  {
+    "lab": 4,
+    "task": 1,
+    "point": 1,
+    "text": "In your workspace, open **Employee Self-Service Portal**. Click **Run Application** to open ESS in Chrome, then sign in as an employee user.",
+    "status": "Captured",
+    "images": [
+      "4_1_1_run_application.png",
+      "4_1_1_employee_sign_in.png"
+    ],
+    "note": "Genuine Lab 3 Run Application and employee sign-in captures reused."
+  },
+  {
+    "lab": 4,
+    "task": 1,
+    "point": 2,
+    "text": "On the ESS Home page, right-click the **Your Onboarding Progress** heading and select **Inspect**. Chrome opens **Developer Tools**.",
+    "status": "Captured",
+    "images": [
+      "4_1_2_inspect_application.png",
+      "4_1_2_developer_tools.png"
+    ],
+    "note": "Fresh ESS Home marks the right-click target. Genuine native Developer Tools panel reused; the Inspect context menu itself is not pictured."
+  },
+  {
+    "lab": 4,
+    "task": 1,
+    "point": 3,
+    "text": "In Developer Tools, click **Toggle device toolbar**, the phone and tablet icon.",
+    "status": "Captured",
+    "images": [
+      "4_1_3_toggle_device_toolbar.png"
+    ],
+    "note": "Clean native Chrome device-toolbar capture reused; no native window was controlled during this revision."
+  },
+  {
+    "lab": 4,
+    "task": 1,
+    "point": 4,
+    "text": "On the device toolbar, select **Dimensions \u2192 Responsive**. Enter **390** for the width and **844** for the height, pressing **Enter** after each value. Keep these dimensions for the remaining page checks.",
+    "status": "Captured",
+    "images": [
+      "4_1_4_device_dimensions.png"
+    ],
+    "note": "Genuine native toolbar capture shows Responsive, 390 \u00d7 844. Hidden browser layout was inspected at this viewport; screenshot API output for some ESS pages is 375 \u00d7 812. Crops preserve native pixels."
+  },
+  {
+    "lab": 4,
+    "task": 2,
+    "point": 1,
+    "text": "Click **Main Navigation**, then click **Home**.",
+    "status": "Captured",
+    "images": [
+      "4_2_1_home_navigation.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 2,
+    "point": 2,
+    "text": "Check that the onboarding cards stack vertically, their text is readable, and the regions do not overlap. Check the application title and welcome heading for clipped text. The main page should fit the mobile view without horizontal scrolling.",
+    "status": "Captured",
+    "images": [
+      "4_2_2_responsive_home.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 2,
+    "point": 3,
+    "text": "Click the **user account** icon in the application header, then click **Settings**. Check that the Settings dialog fits the mobile view and its controls are accessible. Click **Close** to return to ESS Home.",
+    "status": "Captured",
+    "images": [
+      "4_2_3_account_menu.png",
+      "4_2_3_settings_dialog.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 3,
+    "point": 1,
+    "text": "Click **Main Navigation**. Click the arrow beside **My Work** to expand it, then click **My Onboarding Tasks**.",
+    "status": "Captured",
+    "images": [
+      "4_3_1_tasks_navigation.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 3,
+    "point": 2,
+    "text": "Read the **Task Name** column. Swipe left inside the report, or move its horizontal scrollbar to the right, to reveal **Due Date** and **Status**. Check that the values are readable and that the application header stays in place while the report scrolls.",
+    "status": "Captured",
+    "images": [
+      "4_3_2_task_names.png",
+      "4_3_2_report_scrolling.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 3,
+    "point": 3,
+    "text": "Click **Create** to open the **Onboarding Task** dialog. Check that its fields stack vertically and its action buttons are accessible. Click **Cancel** to return to the report.",
+    "status": "Captured",
+    "images": [
+      "4_3_3_create_task.png",
+      "4_3_3_task_dialog.png"
+    ],
+    "note": "Blank task dialog inspected and canceled; no task created."
+  },
+  {
+    "lab": 4,
+    "task": 4,
+    "point": 1,
+    "text": "Click **Main Navigation**. Expand **Leave**, then click **Leave Request**. If a load error appears, click **OK** and record it as **Needs fix**. Continue with the layout checks if the form is accessible; verify the complete form again after the error is resolved. If a load error appears, click **OK** and record it as **Needs fix**. Continue with the layout checks if the form is accessible; verify the complete form again after the error is resolved.",
+    "status": "Captured",
+    "images": [
+      "4_4_1_leave_navigation.png"
+    ],
+    "note": "Existing ESS_UTIL.CALCULATE_LEAVE_BALANCE load error persists. Dismissed for layout inspection; no application repair applied."
+  },
+  {
+    "lab": 4,
+    "task": 4,
+    "point": 2,
+    "text": "Inspect the form using the following checks. Click the calendar icon beside **Start Date** and check that the date picker fits the mobile view. Press **Escape** to close it. Scroll within the page to reach the lower fields and buttons.",
+    "status": "Captured",
+    "images": [
+      "4_4_2_leave_form.png",
+      "4_4_2_date_picker.png"
+    ],
+    "note": "Form and date picker fit after dismissing the existing error. This does not establish correct leave-balance calculation or submission."
+  },
+  {
+    "lab": 4,
+    "task": 4,
+    "point": 3,
+    "text": "Enter **Mobile layout check** in **Reason**. Confirm that the text remains inside the field and that **Cancel** and **Submit Leave** are visible. Click **Cancel** to return to ESS Home.",
+    "status": "Captured",
+    "images": [
+      "4_4_3_reason_cancel.png"
+    ],
+    "note": "Sample Reason text cleared and Cancel clicked; no leave submitted."
+  },
+  {
+    "lab": 4,
+    "task": 5,
+    "point": 1,
+    "text": "Click **Main Navigation**. Expand **Leave**, then click **Leave Calendar**.",
+    "status": "Captured",
+    "images": [
+      "4_5_1_calendar_navigation.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 5,
+    "point": 2,
+    "text": "In **month** view, check that the month heading, weekday labels, date cells, and navigation buttons fit the mobile view.",
+    "status": "Captured",
+    "images": [
+      "4_5_2_calendar_month.png"
+    ],
+    "note": ""
+  },
+  {
+    "lab": 4,
+    "task": 5,
+    "point": 3,
+    "text": "Click **Previous** and **Next** to move between months. Check that the month heading changes. Click **today** to return to the current month.",
+    "status": "Captured",
+    "images": [
+      "4_5_3_calendar_previous.png",
+      "4_5_3_calendar_next.png"
+    ],
+    "note": "Previous, Next, and today verified. Images show adjacent periods in month view."
+  },
+  {
+    "lab": 4,
+    "task": 5,
+    "point": 4,
+    "text": "Click **list** and compare it with **month** view. If leave events are present, check that their dates and labels are readable. If the calendar shows **No events to display**, record event visibility as **Not tested** and repeat this check later for a period containing an employee leave event. Click **month** to return to the calendar grid.",
+    "status": "Captured",
+    "images": [
+      "4_5_4_calendar_list.png"
+    ],
+    "note": "Month and list available; inspected periods contain no events. Event visibility and click remain unverified."
+  },
+  {
+    "lab": 4,
+    "task": 6,
+    "point": 1,
+    "text": "Open [Oracle APEX To Go](https://apex.oracle.com/go/apextogo) in a new tab. Set the device toolbar to the same **390 \u00d7 844** mobile view. Review the **Welcome** screen and its primary **Next** button.",
+    "status": "Captured",
+    "images": [
+      "4_6_1_to_go_welcome.png"
+    ],
+    "note": "Public welcome screen only; no sample sign-in or authenticated device features inspected."
+  },
+  {
+    "lab": 4,
+    "task": 6,
+    "point": 2,
+    "text": "Click **Next** to open **Discover**. Review the short explanation, illustration, and spacing around the **Next** button.",
+    "status": "Captured",
+    "images": [
+      "4_6_2_to_go_discover.png"
+    ],
+    "note": "Public welcome screen only; no sample sign-in or authenticated device features inspected."
+  },
+  {
+    "lab": 4,
+    "task": 6,
+    "point": 3,
+    "text": "Click **Next** to open **Get Started**. Review how the final welcome screen presents one clear primary action. This exercise ends with the public welcome screens.",
+    "status": "Captured",
+    "images": [
+      "4_6_3_to_go_get_started.png"
+    ],
+    "note": "Public welcome screen only; no sample sign-in or authenticated device features inspected."
+  },
+  {
+    "lab": 4,
+    "task": 6,
+    "point": 4,
+    "text": "Record two or three improvements for ESS and the page each improvement would affect. Include any clipped text, overlapping controls, or errors found in Tasks 2\u20135. Use the table below as a starting point; the [example review notes](files/lab4-review-notes.html) show one completed review.",
+    "status": "Captured",
+    "images": [
+      "4_6_4_record_improvements.png"
+    ],
+    "note": "Screenshot of a clearly labelled workshop example record, not an ESS application screen."
+  },
+  {
+    "lab": 4,
+    "task": 7,
+    "point": 1,
+    "text": "Record your browser, device, and viewport size. Review the checks below using **Pass**, **Needs fix**, or **Not tested**, and add the observed result. Repeat the layout and touch checks on an actual supported phone when available. Device emulation alone does not verify PWA installation, operating-system shortcuts, or push notification delivery. The [example verification record](files/lab4-verification-record.html) illustrates how to record incomplete checks.",
+    "status": "Captured",
+    "images": [
+      "4_7_1_verification_record.png"
+    ],
+    "note": "Screenshot of a clearly labelled example verification record; pending native and device checks remain explicit."
+  }
+]

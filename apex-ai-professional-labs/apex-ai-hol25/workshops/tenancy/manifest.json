@@ -1,0 +1,36 @@
+{
+  "workshoptitle": "Building Mobile-Friendly Apps",
+  "help": "livelabs-help_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "filename": "../../introduction.md",
+      "description": "Review the Module 25 objectives, ESS prerequisites, and 35-minute workshop flow."
+    },
+    {
+      "title": "Lab 1: Enable and Install ESS as a PWA",
+      "filename": "../../1-enable-install-ess-pwa.md",
+      "description": "Enable PWA support, configure installation details and an icon, and install ESS."
+    },
+    {
+      "title": "Lab 2: Add PWA Shortcuts and Screenshots",
+      "filename": "../../2-add-pwa-shortcuts-screenshots.md",
+      "description": "Add shortcuts to employee pages and Narrow screenshots for the installation experience."
+    },
+    {
+      "title": "Lab 3: Enable Push Notifications",
+      "filename": "../../3-enable-push-notifications.md",
+      "description": "Subscribe an employee device and extend the existing overdue task automation with a push notification action."
+    },
+    {
+      "title": "Lab 4: Verify ESS on Mobile and Review APEX To Go",
+      "filename": "../../4-verify-mobile-review-apex-to-go.md",
+      "description": "Verify responsive employee pages and record future mobile enhancement ideas."
+    },
+    {
+      "title": "Need Help?",
+      "filename": "https://livelabs.oracle.com/cdn/common/labs/need-help/need-help-freetier.md",
+      "description": "Solutions to common problems and directions for receiving LiveLabs help."
+    }
+  ]
+}

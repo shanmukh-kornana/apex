@@ -21,15 +21,19 @@ In this lab, you will:
 - Map four recruiting KPI rows to a four-column layout.
 - Run and validate the completed TAP Home page.
 
+Use the Lab 5 snapshot, **15_05 Talent Acquisition Portal** (App **158**). Return to the App Builder application list and check the application number before starting; do not continue in the ESS application used in Lab 4.
+
 ## Task 1: Apply the TAP Corporate Theme
 
-1. In App Builder, open **15_05: Talent Acquisition Portal** (**App 158**).
+1. In App Builder, open **Talent Acquisition Portal** application.
 
 2. Run the application and sign in with the TAP credentials supplied in your workshop environment.
 
 3. On the Developer Toolbar, select **Customize > Theme Roller**.
 
-4. Expand **Appearance** and set **Pillar** to **Slate** to establish the corporate grey foundation.
+    If **TAP Corporate** already exists, select it under **Theme > Select Theme** before editing its palette. In step 7, use **Save** to update it instead of **Save As**.
+
+4. Expand **Appearance** and set **Pillar** to **Slate** to establish the corporate grey foundation. If **Pillar** is not available, first select **Redwood Light** under **Theme > Select Theme**, and then expand **Appearance**.
 
     ![Select the Slate pillar](images/lab5-02-select-slate-pillar.png " ")
 
@@ -59,9 +63,11 @@ The corporate style intentionally differs from ESS: TAP uses slate and blue, whi
 
 3. Right-click **Active Candidates**, and select **Create Region Below**.
 
+    If **TAP Metrics** already exists in this snapshot, select that region instead; do not add a second copy.
+
     ![Create a region below Active Candidates](images/lab5-06-create-region-below.png " ")
 
-4. Configure the new region:
+4. In the Property Editor, enter/select the following:
 
     - **Name**: `TAP Metrics`
     - **Type**: `Metric Card`
@@ -75,6 +81,7 @@ The corporate style intentionally differs from ESS: TAP uses slate and blue, whi
 2. Enter the following SQL:
 
     ```sql
+    <copy>
     SELECT COUNT(*) AS value,
            'Active Requisitions' AS label,
            'Open job requisitions' AS description,
@@ -108,11 +115,10 @@ The corporate style intentionally differs from ESS: TAP uses slate and blue, whi
            'fa-envelope' AS icon
     FROM tms_offers
     WHERE status = 'Pending Approval'
+    </copy>
     ```
 
     ![Enter the TAP metric SQL](images/lab5-08-enter-tap-metric-sql.png " ")
-
-    You can also copy the query from [tap-home-metrics.sql](files/tap-home-metrics.sql).
 
 The four `SELECT` statements answer different recruiting questions but return the same four columns. `UNION ALL` produces the four records required by the Metric Card region.
 
@@ -120,7 +126,7 @@ The four `SELECT` statements answer different recruiting questions but return th
 
 1. Select the **Attributes** tab.
 
-2. Under **Settings**, configure:
+2. Under **Settings**, enter/select the following:
 
     | Property | Value |
     | --- | --- |
@@ -139,6 +145,8 @@ The four `SELECT` statements answer different recruiting questions but return th
     | Icon | `&ICON.` |
     | Style | `Subtle` |
     | Position | `Inline` |
+
+    ![Configure Avatar settings in the Attributes tab](images/lab5-09-configure-tap-avatar.png " ")
 
 4. Save and run the page.
 

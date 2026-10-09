@@ -22,11 +22,13 @@ In this lab, you will:
 - Enable the end-user theme-style selector.
 - Switch the running application to ESS Dark.
 
+Use the Lab 1 snapshot, **15_01 : Employee Self-Service Portal** (App **153**). Check the application number in App Builder before making changes; later labs use different snapshots.
+
 ## Task 1: Run ESS and Open Theme Roller
 
 1. Sign in to your Oracle APEX workspace.
 
-2. Select **App Builder**, and then open **15_01: Employee Self-Service Portal** (**App 153**).
+2. Select **App Builder**, and then open **Employee Self-Service Portal**.
 
 3. On the application home page, select **Run Application**.
 
@@ -46,43 +48,37 @@ Theme Roller opens on the right side of the page. Keep the application visible w
 
 ## Task 2: Create the ESS Light Style
 
-1. In Theme Roller, expand **Palette**.
+If **ESS Light** already exists, select it under **Theme > Select Theme** before changing its colors. In steps 6–7, use **Save** to update that style instead of **Save As**; do not create a duplicate.
 
-    ![Open Palette settings](images/lab1-04-open-palette.png " ")
+1. Expand **Appearance** if it is collapsed. If **Pillar** is not available, open **Theme > Select Theme**, select **Redwood Light**, and then expand **Appearance**.
 
-2. Expand **Appearance** if it is collapsed.
-
-3. For **Pillar**, select **Teal**. Observe that the page header, navigation, buttons, and components update together.
+2. For **Pillar**, select **Teal**. Observe that the page header, navigation, buttons, and components update together.
 
     ![Select the Teal pillar](images/lab1-05-select-teal-pillar.png " ")
 
-4. For **Pillar**, now select **Custom**. The **Accent** color control appears.
+3. For **Pillar**, now select **Custom**. The **Accent** color control appears.
 
     This second choice keeps the teal-based preview as your starting point while allowing you to enter the exact ESS accent color.
 
-5. For **Accent**, select the color swatch.
+4. For **Accent**, select the color swatch.
 
     ![Open the Accent color picker](images/lab1-06-open-accent-color-picker.png " ")
 
-6. In **Hex**, enter `10b981`. A leading `#` is not required in the APEX color picker.
+5. In **Hex**, enter `10b981`. A leading `#` is not required in the APEX color picker.
 
     ![Set the ESS accent color](images/lab1-07-set-accent-10b981.png " ")
 
-7. Click outside the color picker to close it. Review the application preview.
-
-    > **Note:** APEX 26.1 applies Theme Roller changes immediately. Some earlier versions display a **Refresh** button; if your version displays it, select **Refresh** before continuing.
-
-8. At the bottom of Theme Roller, select **Save As**.
+6. At the bottom of Theme Roller, select **Save As**.
 
     ![Save the new light style](images/lab1-08-save-as-ess-light.png " ")
 
-9. For **Style Name**, enter `ESS Light`, and then select **Save**.
+7. For **Style Name**, enter `ESS Light`, and then select **Save**.
 
     ![Name the ESS Light style](images/lab1-09-name-ess-light.png " ")
 
-    If `ESS Light` already exists in a shared reference environment, do not create a duplicate. Select the existing style or use a temporary unique name supplied by your instructor.
-
 ## Task 3: Create the ESS Dark Style
+
+If **ESS Dark** already exists, select it instead of **Vita - Dark** in step 1 and use **Save** instead of **Save As** in steps 3–4. Otherwise, follow the steps below to create it.
 
 1. In the **Theme** section, open **Select Theme**, and select **Vita - Dark**.
 
@@ -98,7 +94,7 @@ Theme Roller opens on the right side of the page. Keep the application visible w
 
 5. Close Theme Roller.
 
-At this point, the application contains two named styles. **ESS Light** remains the application default; **ESS Dark** is available as a user preference.
+At this point, the application contains two named styles. Saving **ESS Dark** makes it the current application style. In the next task, restore **ESS Light** as the application default while keeping **ESS Dark** available to employees.
 
 ## Task 4: Let Employees Choose a Theme Style
 
@@ -118,7 +114,7 @@ At this point, the application contains two named styles. **ESS Light** remains 
 
     ![Enable end-user theme choice](images/lab1-14-enable-theme-choice.png " ")
 
-6. Verify that **Theme Style** is `ESS Light`. This keeps the light style as the default for users who have not chosen a preference.
+6. Set **Theme Style** to `ESS Light`. This restores the light style as the default for users who have not chosen a preference.
 
 7. Select **Apply Changes**.
 
@@ -140,9 +136,9 @@ At this point, the application contains two named styles. **ESS Light** remains 
 
 5. Confirm that the page changes to the dark style and remains usable.
 
-    ![ESS Dark result](images/lab1-18-ess-dark-result.png " ")
+    Wait for the Customize dialog to close and verify the page itself, not just the selected option in the dialog.
 
-6. Open **Customize** once more and return to **Use Application Default Style** or **ESS Light** before the next lab.
+6. Open **Customize** once more, select **Use Application Default Style** or **ESS Light**, and click **Apply Changes**. Confirm that the page returns to the light style before the next lab.
 
 ## Summary
 

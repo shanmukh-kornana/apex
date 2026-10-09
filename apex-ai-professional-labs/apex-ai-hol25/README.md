@@ -35,7 +35,7 @@ Then open `http://127.0.0.1:8000/workshops/tenancy/index.html`. This previews th
 
 ## Add Screenshots
 
-128 instructional PNG references cover 101 of 106 numbered steps and are linked directly from the labs. Use [SCREENSHOT-CHECKLIST.md](SCREENSHOT-CHECKLIST.md) for exact coverage, remaining captures, and observed issues. Machine-readable coverage is in [SCREENSHOT-COVERAGE.json](SCREENSHOT-COVERAGE.json).
+126 instructional PNG references cover 99 of 105 numbered steps and are linked directly from the labs. Use [SCREENSHOT-CHECKLIST.md](SCREENSHOT-CHECKLIST.md) for exact coverage, remaining captures, and observed issues. Machine-readable coverage is in [SCREENSHOT-COVERAGE.json](SCREENSHOT-COVERAGE.json).
 
 ## Authoring Status
 

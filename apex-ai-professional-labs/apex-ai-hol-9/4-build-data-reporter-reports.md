@@ -25,7 +25,9 @@ In this lab, you will:
 
 1. On the Data Reporter home page, open **HR Analytics App**.
 
-2. Select **Create Report**.
+2. Before creating the Interactive Reports, select **Edit Reporting Application Definition**. Under **Generative AI**, select the workshop's configured **AI Service**, and select **Apply Changes**. If no service is available, ask your instructor to complete the prerequisite AI setup. A service configured only in the workspace does not enable AI-assisted search in this reporting application.
+
+3. Select **Create Report**.
 
     ![Create a report](images/16-create-report.png " ")
 
@@ -35,7 +37,7 @@ The completed application will contain four published reports.
 
 ## Task 2: Create Recruitment Pipeline Analytics
 
-This report gives HR leadership insight into the recruitment pipeline. Because Generative AI is already configured in the workspace, the Interactive Report includes AI-assisted search.
+This report gives HR leadership insight into the recruitment pipeline. With an AI Service selected for the reporting application in Task 1, new Interactive Reports support AI-assisted search.
 
 1. In **Create a Report**:
 
@@ -54,13 +56,13 @@ This report gives HR leadership insight into the recruitment pipeline. Because G
 
     ![Select the candidate pipeline view](images/22-select-candidate-pipeline-source.png " ")
 
-3. On the report details page, select **Edit Report** and set the description to:
+3. On the report details page, open **Actions**, select **Edit Details**, and set **Description** to:
 
     `Give HR leadership insights into the recruitment pipeline.`
 
-4. Save the report, and then select **Run**.
+4. Select **Apply Changes**, and then open **Run** in a separate browser tab. Keep the report builder tab open for the remaining report-creation tasks.
 
-5. Sign in as `DR_EDITOR` using the password supplied in your workshop environment.
+5. If prompted, sign in as `DR_EDITOR` using the password supplied in your workshop environment. If a different account is already signed in, sign out of the runtime application and sign in as `DR_EDITOR`. Confirm the runtime account before configuring the report.
 
     ![Sign in as DR_EDITOR](images/30-sign-in-as-dr-editor.png " ")
 
@@ -91,15 +93,11 @@ This report gives HR leadership insight into the recruitment pipeline. Because G
     - **Label**: Department
     - **Value**: Days in Pipeline
     - **Function**: Average
-    - **Axis Title for Value**: `Average Time to Hire`
+    - **Axis Title for Value**: `Average Days in Pipeline`
 
 10. Select **Apply**.
 
-    ![Configure the recruitment chart](images/35-configure-recruitment-chart.png " ")
-
-11. Confirm that the Chart view displays average days in the pipeline by department.
-
-    ![Review the recruitment pipeline chart](images/31-recruitment-pipeline-chart.png " ")
+11. Confirm that the Chart view displays average days in the pipeline by department. This measures days since application across all candidate stages; it does not measure time to hire.
 
 ### Save the Primary Default
 
@@ -108,8 +106,6 @@ This report gives HR leadership insight into the recruitment pipeline. Because G
 13. For **Save**, select **As Default Report Settings**.
 
 14. In **Save Default Report**, select **Primary**, and then select **Apply**.
-
-    ![Save the report as the Primary Default](images/36-save-as-primary-default.png " ")
 
 ## Task 3: Create Candidate Search and Shortlisting
 
@@ -125,11 +121,11 @@ This report gives HR leadership insight into the recruitment pipeline. Because G
 
 3. Select `V_CANDIDATE_PIPELINE`, and then select **Create Report**.
 
-4. Edit the report and set the description to:
+4. On the report details page, open **Actions**, select **Edit Details**, and set **Description** to:
 
     `Find candidates by job title, department, and application status easily.`
 
-5. Configure the report to display:
+5. Select **Apply Changes** to save the description. Under **Facets and Columns**, select **Edit** for each of the following columns, enable **Display**, and select **Apply Changes** after each edit:
 
     - Candidate Name
     - Job Title
@@ -139,11 +135,11 @@ This report gives HR leadership insight into the recruitment pipeline. Because G
     - Applied Date
     - Days in Pipeline
 
-6. Hide Candidate ID and Requisition ID from the default table unless your instructor wants the technical identifiers available.
+6. Under **Facets and Columns**, edit **Candidate ID** and **Requisition ID** in turn. Disable **Display** and select **Apply Changes** for each. Keep the identifiers displayed only if your instructor requires them.
 
-7. Keep or add facets for **Current Stage**, **Source**, **Applied Date**, **Job Title**, and **Department**.
+7. Under **Facets and Columns**, edit **Current Stage**, **Source**, **Applied Date**, **Job Title**, and **Department** in turn. Enable **Enable Facet** and choose **Inline** for **Facet Display**. Select **Apply Changes** after each edit.
 
-8. Save and run the report. Confirm that selecting a facet filters the candidate table.
+8. Select **Run**. Confirm that the selected columns are displayed, the technical identifiers are hidden unless required by your instructor, and selecting a facet filters the candidate table.
 
     ![Review Candidate Search and Shortlisting](images/38-candidate-search-report.png " ")
 
@@ -184,11 +180,11 @@ The Module 9 design calls this report **Employee Directory**. The completed refe
 
     ![Configure employee list display and facets](images/26-configure-headcount-display.png " ")
 
-7. Edit the report and set the description to:
+7. On the report details page, open **Actions**, select **Edit Details**, set **Description** to the following text, and select **Apply Changes**:
 
     `Displays employee distribution by department for easy analysis.`
 
-8. Save and run the report. Confirm that the list shows employee name, job title, department, and status.
+8. Select **Run**. Confirm that the list shows employee name, job title, department, and status.
 
     ![Review the headcount employee list](images/39-headcount-list-report.png " ")
 
@@ -210,11 +206,11 @@ This report provides HR with insight into employee leave requests and utilizatio
 
     ![Select the leave summary view](images/28-select-leave-summary-source.png " ")
 
-4. Edit the report and set the description to:
+4. On the report details page, open **Actions**, select **Edit Details**, set **Description** to the following text, and select **Apply Changes**:
 
     `Provide HR with insights into employee leave requests and utilization.`
 
-5. Save the report and run it as `DR_EDITOR` or `DR_ADMIN`.
+5. Select **Run** and sign in as `DR_EDITOR` or `DR_ADMIN` if prompted. Verify the runtime account before configuring the summaries.
 
 ### Configure the Leave-Type Summary
 

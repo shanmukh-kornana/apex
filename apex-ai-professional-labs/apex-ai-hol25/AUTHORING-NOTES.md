@@ -54,7 +54,7 @@ Application 301 in workspace APEX_LL was configured and inspected with the user'
 
 ## Screenshot Method and Remaining Checks
 
-128 instructional PNG references cover 101 of 106 numbered steps. The first two user-supplied screenshots were annotated without resizing. Missing red outlines were added using the explicitly approved pixel-preserving local script; Lab 1, Lab 2, and Lab 3 images are cropped to the relevant content without resizing UI pixels. Browser permission, installed window, Finder icon, and Developer Tools screenshots come from native UI captures. The remaining instructional captures come from the real App Builder and ESS pages, with the version text hidden.
+126 instructional PNG references cover 99 of 105 numbered steps. The first two user-supplied screenshots were annotated without resizing. Missing red outlines were added using the explicitly approved pixel-preserving local script; Lab 1, Lab 2, and Lab 3 images are cropped to the relevant content without resizing UI pixels. Browser permission, installed window, Finder icon, and Developer Tools screenshots come from native UI captures. The remaining instructional captures come from the real App Builder and ESS pages, with the version text hidden.
 
 The installation confirmation dialog, operating-system shortcut menu and its interactions, received notification and click, and notes/checklist screenshots remain pending. macOS Dock control did not respond, and browser control stopped responding during the final task dialog inspection. The dialog screenshot exists; no form was submitted. Opening the local notes HTML in the browser was blocked by browser URL policy; the notes are supplied as Markdown.
 
@@ -103,3 +103,21 @@ Removed Lab 2 Task 6 former Step 5 (fresh sign-in checks and both account screen
 - Existing missing ESS_UTIL.CALCULATE_LEAVE_BALANCE error persists. Layout captures were taken after dismissing it; no full form acceptance is claimed. Inspected calendar periods contain no events, so event visibility/click remain unverified.
 - APEX To Go review restricted to public Welcome, Discover, and Get Started screens, as requested. No sign-in or authenticated sample feature was tested.
 - Added clearly labelled HTML example review notes and verification record, with genuine screenshots of those workshop artifacts. They do not mimic ESS or claim incomplete checks passed. Lab 4 has no missing step illustrations; pending native installation, launcher, and notification captures in earlier labs remain tracked.
+
+## Lab 3 Follow-up — October 6, 2026
+
+- Removed the Labs 1–2 prerequisite and the selected-credential skip instruction as requested.
+- Rebuilt Task 3 Step 2 from the original capture. The Page Source red box now surrounds the full Create a new page radio control and label; page-number and Create highlights remain.
+- Added the LiveLabs <copy> wrapper to the Task 7 SQL snippet so the workshop supplies its Copy button. Removed the requested eligibility paragraph and screenshot. Step 1 is tracked as a text-only exercise rather than a missing capture; Lab 3 now references 29 images.
+
+## Lab 4 Task 6 Tour Revision — October 8, 2026
+
+Replaced the review-comments exercise with a three-step end-user tour of the public Welcome → Discover → Get Started flow. Kept the earlier restriction to public screens; no APEX To Go sign-in is included. Removed the improvement table and its illustration, aligned the lab objective and summary, and removed the obsolete improvement-ideas row from the verification example and its capture. Task 7's module verification checks remain. Existing screenshots are reused; no new application state or feature was claimed.
+
+## Lab 4 Task 7 Removal — October 8, 2026
+
+Removed Task 7 and its verification-record link and screenshot reference at the user’s request. Lab 4 now ends after the six-task mobile tour, followed by Summary and Learn More. Updated the summary and coverage metadata; the unused example assets are retained.
+
+## Lab 4 Application Tour Screenshot — October 8, 2026
+
+Added Task 6 Step 4 showing the APEXToGo application home screen from the user-supplied screenshot. Cropped to the complete application without resizing; red boxes identify search, categories, and bottom navigation. Step 3 now continues with Go! and sign-in if prompted. Objectives and summary include the application home tour. This extends the documented tour beyond the earlier public welcome-only scope; no sample login, sign-in replay, or application changes were performed.

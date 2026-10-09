@@ -27,6 +27,7 @@ The Talent Acquisition Portal (TAP) and Employee Self-Service Portal (ESS) alrea
 - Access to the `APEX_LL` workspace.
 - A configured application-default Generative AI service.
 - The TAP and ESS applications from the preceding modules.
+- A TA Admin runtime account and a test candidate with verified resume qualifications and requisition requirements for Lab 1.
 - An employee test account whose login name matches `TMS_EMPLOYEES.EMAIL`.
 - Access to an HR Admin account for Lab 3.
 

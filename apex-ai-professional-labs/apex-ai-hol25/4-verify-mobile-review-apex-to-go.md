@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will inspect the existing ESS pages in mobile view and review the public Oracle APEX To Go welcome screens for ideas to improve the employee experience.
+In this lab, you will inspect the existing ESS pages in mobile view and tour Oracle APEX To Go as an end user in mobile view.
 
 Estimated Time: 7 minutes
 
@@ -10,7 +10,7 @@ Estimated Time: 7 minutes
 
 - Inspect ESS using Chrome's device emulation.
 - Check navigation, reports, forms, and the calendar in mobile view.
-- Record observed issues and two or three improvements for ESS.
+- Tour the Oracle APEX To Go welcome screens and application home page in mobile view.
 
 ### Prerequisites
 
@@ -116,49 +116,27 @@ Estimated Time: 7 minutes
 
     ![List view and available calendar view buttons](images/4_5_4_calendar_list.png " ")
 
-## Task 6: Review the Public Oracle APEX To Go Screens
+## Task 6: Tour Oracle APEX To Go in Mobile View
 
-1. Open [Oracle APEX To Go](https://apex.oracle.com/go/apextogo) in a new tab. Set the device toolbar to the same **390 × 844** mobile view. Review the **Welcome** screen and its primary **Next** button.
+1. Open [Oracle APEX To Go](https://apex.oracle.com/go/apextogo) in a new tab. Set the device toolbar to **Responsive**, with a width of **390** and a height of **844**. The **Welcome** screen introduces the mobile sample application. Click **Next** to continue the tour.
 
-    ![Public Oracle APEX To Go Welcome screen](images/4_6_1_to_go_welcome.png " ")
+    ![Oracle APEX To Go Welcome screen with Next](images/4_6_1_to_go_welcome.png " ")
 
-2. Click **Next** to open **Discover**. Review the short explanation, illustration, and spacing around the **Next** button.
+2. On **Discover**, read the introduction to the mobile patterns available in the sample application. Click **Next** to continue.
 
-    ![Public Oracle APEX To Go Discover screen](images/4_6_2_to_go_discover.png " ")
+    ![Oracle APEX To Go Discover screen with Next](images/4_6_2_to_go_discover.png " ")
 
-3. Click **Next** to open **Get Started**. Review how the final welcome screen presents one clear primary action. This exercise ends with the public welcome screens.
+3. On **Get Started**, click **Go!** to continue to the application. Sign in if prompted.
 
-    ![Public Oracle APEX To Go Get Started screen](images/4_6_3_to_go_get_started.png " ")
+    ![Oracle APEX To Go Get Started screen](images/4_6_3_to_go_get_started.png " ")
 
-4. Record two or three improvements for ESS and the page each improvement would affect. Include any clipped text, overlapping controls, or errors found in Tasks 2–5. Use the table below as a starting point; the [example review notes](files/lab4-review-notes.html) show one completed review.
+4. Explore the **APEXToGo** home screen in mobile view.
 
-    | ESS page | Observation | Suggested improvement |
-    | --- | --- | --- |
-    | Home | The application title is truncated in mobile view. | Use a shorter mobile title. |
-    | My Onboarding Tasks | Important columns require horizontal scrolling. | Show task name, due date, and status in a focused report or cards. |
-    | Employee welcome | The public APEX To Go screens use brief instructions and one primary action. | Add a short welcome flow with a clear next action. |
-
-    ![Example review notes based on the inspected pages](images/4_6_4_record_improvements.png " ")
-
-## Task 7: Record the Module Results
-
-1. Record your browser, device, and viewport size. Review the checks below using **Pass**, **Needs fix**, or **Not tested**, and add the observed result. Repeat the layout and touch checks on an actual supported phone when available. Device emulation alone does not verify PWA installation, operating-system shortcuts, or push notification delivery. The [example verification record](files/lab4-verification-record.html) illustrates how to record incomplete checks.
-
-    | Check | Expected result |
-    | --- | --- |
-    | Installation and launch | ESS installs and opens from the device application icon. |
-    | PWA shortcuts | Each shortcut opens its configured ESS page. |
-    | Promotional screenshots | The saved screenshot records use the intended mobile dimensions. |
-    | Push notifications | The subscribed device receives a notification, and clicking it opens the target page. |
-    | Employee pages | Home, tasks, leave form, and calendar remain usable in mobile view. |
-    | Calendar events | Employee leave events are visible in the selected period. |
-    | Improvement ideas | Two or three ESS improvements are recorded. |
-
-    ![Example verification record with incomplete checks identified](images/4_7_1_verification_record.png " ")
+    ![APEXToGo home screen in mobile view](images/4_6_4_to_go_home.png " ")
 
 ## Summary
 
-You reviewed ESS navigation, cards, report scrolling, form controls, and calendar views in mobile view. You also reviewed the public Oracle APEX To Go welcome screens and recorded improvements and verification results for the module.
+You reviewed ESS navigation, cards, report scrolling, form controls, and calendar views in mobile view. You also toured the Oracle APEX To Go welcome screens and application home page in mobile view.
 
 ## Learn More
 

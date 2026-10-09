@@ -1,10 +1,10 @@
 # Module 25 Screenshot Coverage
 
-All 106 numbered steps are tracked below. Red boxes identify click targets or inspected regions. Filenames follow the supplied numeric naming convention. Referenced captures exclude Oracle APEX version text, unrelated browser tabs, debug banners, and developer-toolbar overlays.
+All 105 numbered steps are tracked below. Red boxes identify click targets or inspected regions. Filenames follow the supplied numeric naming convention. Referenced captures exclude Oracle APEX version text, unrelated browser tabs, debug banners, and developer-toolbar overlays.
 
 **Captured** means an image exists; it does not imply an incomplete check passed. Example review records are labelled as examples and are distinguished from application screens.
 
-128 instructional PNG references cover 101 numbered steps. 5 steps still require a screenshot.
+126 instructional PNG references cover 99 numbered steps. 5 steps still require a screenshot; Lab 3 Task 7 Step 1 is a text-only exercise at the user’s request.
 
 See [mobile review notes](MOBILE-REVIEW-NOTES.md) and [authoring notes](AUTHORING-NOTES.md) for runtime findings.
 
@@ -88,7 +88,7 @@ See [mobile review notes](MOBILE-REVIEW-NOTES.md) and [authoring notes](AUTHORIN
 | 3 / 6 / 1 | Captured | [3_6_1_add_action.png](images/3_6_1_add_action.png) | Current action list already contains the push action. Initial-creation instructions illustrated without creating a duplicate. |
 | 3 / 6 / 2 | Captured | [3_6_2_create_push_action.png](images/3_6_2_create_push_action.png) |  |
 | 3 / 6 / 3 | Captured | [3_6_3_save_changes.png](images/3_6_3_save_changes.png) |  |
-| 3 / 7 / 1 | Captured | [3_7_1_review_matching_rows.png](images/3_7_1_review_matching_rows.png) | Read-only eligibility query executed successfully and returned no rows. Fresh eligible task required; no task was changed. |
+| 3 / 7 / 1 | Text only (requested) | | Copyable SQL snippet provided. Eligibility-query screenshot removed at the user’s request. |
 | 3 / 7 / 2 | Captured | [3_7_2_save_and_run.png](images/3_7_2_save_and_run.png) |  |
 | 3 / 7 / 3 | Captured | [3_7_3_open_execution_log.png](images/3_7_3_open_execution_log.png)<br>[3_7_3_execution_log.png](images/3_7_3_execution_log.png) | Historical run used for navigation illustration: seven successful rows after the prior approved email bypass. Email restored. This does not establish delivery or a successful full-action run. |
 | 3 / 7 / 4 | Captured | [3_7_4_log_messages.png](images/3_7_4_log_messages.png) | Historical run used for navigation illustration: seven successful rows after the prior approved email bypass. Email restored. This does not establish delivery or a successful full-action run. |
@@ -111,8 +111,7 @@ See [mobile review notes](MOBILE-REVIEW-NOTES.md) and [authoring notes](AUTHORIN
 | 4 / 5 / 2 | Captured | [4_5_2_calendar_month.png](images/4_5_2_calendar_month.png) |  |
 | 4 / 5 / 3 | Captured | [4_5_3_calendar_previous.png](images/4_5_3_calendar_previous.png)<br>[4_5_3_calendar_next.png](images/4_5_3_calendar_next.png) | Previous, Next, and today verified. Images show adjacent periods in month view. |
 | 4 / 5 / 4 | Captured | [4_5_4_calendar_list.png](images/4_5_4_calendar_list.png) | Month and list available; inspected periods contain no events. Event visibility and click remain unverified. |
-| 4 / 6 / 1 | Captured | [4_6_1_to_go_welcome.png](images/4_6_1_to_go_welcome.png) | Public welcome screen only; no sample sign-in or authenticated device features inspected. |
-| 4 / 6 / 2 | Captured | [4_6_2_to_go_discover.png](images/4_6_2_to_go_discover.png) | Public welcome screen only; no sample sign-in or authenticated device features inspected. |
-| 4 / 6 / 3 | Captured | [4_6_3_to_go_get_started.png](images/4_6_3_to_go_get_started.png) | Public welcome screen only; no sample sign-in or authenticated device features inspected. |
-| 4 / 6 / 4 | Captured | [4_6_4_record_improvements.png](images/4_6_4_record_improvements.png) | Screenshot of a clearly labelled workshop example record, not an ESS application screen. |
-| 4 / 7 / 1 | Captured | [4_7_1_verification_record.png](images/4_7_1_verification_record.png) | Screenshot of a clearly labelled example verification record; pending native and device checks remain explicit. |
+| 4 / 6 / 1 | Captured | [4_6_1_to_go_welcome.png](images/4_6_1_to_go_welcome.png) | Guided tour of the public welcome flow. No review comments, improvement exercise, sample sign-in, or authenticated feature tour. |
+| 4 / 6 / 2 | Captured | [4_6_2_to_go_discover.png](images/4_6_2_to_go_discover.png) | Guided tour of the public welcome flow. No review comments, improvement exercise, sample sign-in, or authenticated feature tour. |
+| 4 / 6 / 3 | Captured | [4_6_3_to_go_get_started.png](images/4_6_3_to_go_get_started.png) | Get Started screenshot reused. Application home screenshot supplied by the user in Step 4; sign-in transition was not replayed. |
+| 4 / 6 / 4 | Captured | [4_6_4_to_go_home.png](images/4_6_4_to_go_home.png) | User-supplied APEXToGo home screenshot cropped to the complete application; red boxes mark search, categories, and bottom navigation. No application login or new runtime test performed. |

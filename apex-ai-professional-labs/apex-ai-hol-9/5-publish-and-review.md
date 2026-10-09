@@ -25,7 +25,7 @@ In this lab, you will:
 
 2. Open **Recruitment Pipeline Analytics**.
 
-3. Use the report **Actions** menu to select **Publish**, and confirm the action.
+3. On the report details page, select **Publish**. In the confirmation dialog, select **Publish** again.
 
 4. Confirm that the report details page displays **Published**.
 
@@ -87,9 +87,7 @@ In this lab, you will:
 
 1. Open **Recruitment Pipeline Analytics**.
 
-2. Confirm that the report opens with its saved Primary Default and displays the published chart.
-
-    ![Validate Recruitment Pipeline Analytics as DR_USER](images/46-dr-user-validates-recruitment-report.png " ")
+2. Confirm that the report opens with its saved Primary Default and displays the published chart. Wait for loading to finish and verify that department labels and bars are visible, with the value axis labeled **Average Days in Pipeline**. If there are no bars, check whether the source view contains candidate data and whether any report filters exclude it; a chart showing only axes does not pass this check.
 
 3. Select the Group By view and confirm that the stage counts are present.
 

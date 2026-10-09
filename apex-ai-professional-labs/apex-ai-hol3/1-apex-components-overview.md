@@ -31,7 +31,7 @@ App Builder is the main development area for creating, running, and maintaining 
 
     ![Open an existing application](images/113_Open_an_Application.png " ")
 
-    > **Note:** A new workspace may not contain any applications. You will install and explore a Gallery sample application in Task 3.
+    > **Note:** A new workspace may not contain any applications. If no applications are listed, continue with point 6. You will install and explore APEXToGo in Task 3.
 
 4. Review the application home page:
 
@@ -90,11 +90,11 @@ SQL Workshop is where developers inspect database objects, run SQL and PL/SQL, m
 
     ![Open SQL Workshop Utilities](images/1211_open_Utilities.png " ")
 
-16. Review the available tools, including Data Workshop, Data Generator, Query Builder, Quick SQL, DDL generation, and recycle-bin management. Return to the APEX home page when finished.
+16. Review the available tools, including Data Workshop, Data Generator, Query Builder, Quick SQL, DDL generation, and recycle-bin management. Click the return icon to return to the **SQL Workshop** home page, then select the **APEX** logo to return to the workspace home page.
 
     ![Review SQL Workshop Utilities](images/1212_back_SQL_workshop.png " ")
 
-Use the **Team Development Utilities** page to manage deleted issues, templates, milestones, and labels, view uploaded files, purge data, reassign issues and issue owners, remove a milestone or label from all issues, and manage user notifications.
+Team Development provides issue tracking inside APEX. Its **Utilities** page can be used to manage deleted issues, templates, milestones, and labels, view uploaded files, purge data, reassign issues and issue owners, remove a milestone or label from all issues, and manage user notifications.
 
 17. On the workspace home page, select **Team Development** from the right-side panel.
 
@@ -118,7 +118,7 @@ Gallery applications provide working examples and reusable starting points.
 
 2. Review the **Sample Apps** tab. Sample apps are complete applications that demonstrate APEX features, page patterns, and user experiences.
 
-    ![Browse Gallery sample apps](images/212_show_sample_apps.png " ")
+    ![Browse Gallery sample apps](images/311_click_install_APEGOTO_app.png " ")
 
 3. Select **Starter Apps**. Starter apps provide a smaller foundation that can be adapted for a business application. Notice that Gallery also separates Utility Apps and Custom Apps.
 
@@ -126,9 +126,9 @@ Gallery applications provide working examples and reusable starting points.
 
 ## Task 3: Install and Explore a Gallery Sample Application
 
-The supplied APEX 26.1 flow installs **APEXToGo**. If your instructor assigned **Sample Database Application**, select that Gallery card instead and follow its install-and-run flow.
+This flow uses **APEXToGo**, the reference application shown in the screenshots.
 
-1. Return to **Sample Apps**, locate **APEXToGo**, and select **Install**.
+1. Return to **Sample Apps** and locate **APEXToGo**. If the card shows **Install**, select it. If it already shows **Run**, continue with point 2.
 
     ![Install APEXToGo](images/311_click_install_APEGOTO_app.png " ")
 
@@ -178,11 +178,11 @@ You are not building or modifying this application. Use it as a reference for th
 
     ![Review the Orders page](images/325_view_orders.png " ")
 
-13. Return to a restaurant, select an item, and review the item-detail drawer. Notice the image, quantity control, option, note field, and primary **Add to Cart** action.
+13. Select **Search**, enter `grill`, select **APEX Mex Grill**, and then select the **+** icon for any item. Review the item-detail drawer. Notice the image, quantity control, option, note field, and primary **Add to Cart** action.
 
     ![Review item details and cart controls](images/326_add_items.png " ")
 
-14. Select **Account** on the Home page. Review how related account actions are grouped in a single panel.
+14. Close the item-detail drawer, then select **Account** in the primary navigation. Review how related account actions are grouped in a single panel.
 
     ![Review account management](images/327_view_account_management.png " ")
 

@@ -20,19 +20,19 @@ In this lab, you will:
 - Map query columns to Metric Card text and avatar properties.
 - Remove the obsolete Page Navigation placeholder.
 
+Use the Lab 3 snapshot, **15_03 : Employee Self-Service Portal** (App **155**), not the application used in Lab 2. Return to the App Builder application list, open this snapshot, and display its Pages report before starting Task 1.
+
 ## Task 1: Personalize the Home Banner
 
-1. In App Builder, open **15_03: Employee Self-Service Portal** (**App 155**).
-
-2. In the Pages report, select **Home**.
+1. In the Pages report, select **Home**.
 
     ![Open ESS Home](images/lab3-01-open-home.png " ")
 
-3. In Page Designer, under **Rendering > Breadcrumb Bar**, select the existing breadcrumb or title region. In the reference application, its name is **Employee Self-Service Portal**.
+2. In Page Designer, under **Rendering > Breadcrumb Bar**, select the existing breadcrumb or title region. In the reference application, its name is **Employee Self-Service Portal**.
 
     ![Select the Home breadcrumb region](images/lab3-02-select-breadcrumb.png " ")
 
-4. In **Identification**, set **Title** to:
+3. In **Identification**, set **Title** to:
 
     ```text
     Welcome, &APP_USER.
@@ -44,7 +44,7 @@ The terminating period belongs to the APEX substitution string syntax. At runtim
 
 ## Task 2: Configure the Live Metric Region
 
-1. Under **Rendering > Body**, select **Your Onboarding Progress**.
+1. In the left pane, select **Your Onboarding Progress** region.
 
     ![Select Your Onboarding Progress](images/lab3-04-select-progress-region.png " ")
 
@@ -65,6 +65,7 @@ The terminating period belongs to the APEX substitution string syntax. At runtim
 4. Replace the SQL Query with the following code:
 
     ```sql
+    <copy>
     SELECT
         COUNT(*) AS value,
         'Tasks Pending' AS label,
@@ -138,19 +139,18 @@ The terminating period belongs to the APEX substitution string syntax. At runtim
         'fa-umbrella' AS icon,
         NULL AS badge
     FROM dual
+    </copy>
     ```
 
     ![Enter the ESS metric SQL](images/lab3-06-enter-ess-metric-sql.png " ")
 
-    You can also copy the query from [ess-home-metrics.sql](files/ess-home-metrics.sql).
-
 Each `SELECT` returns the same columns, and `UNION ALL` turns the four results into four Metric Card records. The displayed numbers therefore remain live as the underlying task, employee, and leave data changes.
 
-> **Troubleshooting:** A scalar employee lookup must return no more than one row. If it returns `ORA-01427`, remove duplicate employee email records or use the unique employee account intended for the lab.
+> **Troubleshooting:** A scalar employee lookup must return no more than one row. If it returns `ORA-01427`, ask your instructor to check the employee-account mapping or supply the unique employee account intended for the lab. Do not delete employee records to resolve this error.
 
 ## Task 3: Map the Metric Card Attributes
 
-1. Select the **Attributes** tab in the Property Editor.
+1. In the Property Editor, navigate to **Attributes** tab.
 
 2. Under **Settings**, configure:
 
@@ -171,18 +171,19 @@ Each `SELECT` returns the same columns, and `UNION ALL` turns the four results i
     | Property | Value |
     | --- | --- |
     | Display Avatar | On |
-    | Type | `Icon` |
     | Icon | `&ICON.` |
     | Style | `Subtle` |
     | Position | `Inline` |
 
     ![Map the avatar icon](images/lab3-09-map-avatar-icon.png " ")
 
-4. Select **Save and Run Page**.
+4. Click **Save and Run Page**.
 
     ![Save and run ESS Home](images/lab3-10-save-run-home.png " ")
 
 5. Sign in if prompted. Confirm that the Home page displays four cards and that each card has a label, a number, and an icon.
+
+    ![ESS Home with four metric cards](images/lab3-11-ess-metrics-result.png " ")
 
     If the current user has no matching employee data, the expected metric values are zero. If the whole region is empty, review the SQL for a copied semicolon, an invalid icon alias, or a scalar subquery returning multiple employees.
 
@@ -194,13 +195,11 @@ The KPI region replaces the old placeholder navigation content from the earlier 
 
 2. In the Rendering tree, right-click **Page Navigation**.
 
-3. Select **Delete**.
+3. Click **Delete**.
 
     ![Delete Page Navigation](images/lab3-12-delete-page-navigation.png " ")
 
-4. If **Quick Links** is still used elsewhere on the page, keep it. Delete only the region named **Page Navigation**.
-
-5. Save the page.
+4. Save and run the page. Confirm that **Page Navigation** is gone and that **Your Onboarding Progress** and **Quick Links** remain visible.
 
 ## Summary
 

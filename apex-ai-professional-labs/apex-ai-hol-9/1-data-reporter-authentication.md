@@ -38,15 +38,15 @@ The dataset is the governance boundary. It exposes only the database objects req
 
 1. Sign in to **APEX Administration Services** as an Instance Administrator.
 
-2. Select **Manage Instances**, and then select **Security**.
+2. Select **Manage Instance**, and then select **Security**. Find **Authentication Control**.
 
-3. In **Data Reporter Authentication Schemes**, open **Oracle APEX Accounts**.
+3. Review **Development Environment Authentication Schemes** with your instance administrator. This workshop requires a Data Reporter environment that supports **Oracle APEX Accounts** so that the named workshop accounts can authenticate.
 
-4. If you are using APEX on Autonomous Database, edit **Oracle APEX Accounts** and mark it as **Current**.
+4. Under **Development Environment Settings**, find **Data Reporter Authentication Scheme**. If **Oracle APEX Accounts** is available, select it. If it is already selected, keep it. If it is unavailable, stop and ask your instructor for a compatible workshop environment before continuing; do not substitute another identity provider while retaining the account-creation steps in Lab 3. The available schemes depend on the supplied environment. The [Oracle APEX authentication guide](https://docs.oracle.com/en/database/oracle/apex/26.1/aeadm/configuring-authentication-scheme-for-data-reporter.html) documents SAML, Social Sign-In, and HTTP Header Variable for the standard setup.
 
-5. Save the change and sign out of APEX Administration Services.
+5. Select **Apply Changes** if you changed the setting, and sign out of APEX Administration Services.
 
-6. Sign in to the workshop workspace. On the APEX workspace home page, select **Data Reporter**.
+6. Sign in to the workshop workspace. On the APEX workspace home page, select **Data Reporter**. If the welcome page asks an instance administrator to configure authentication, have the administrator complete the setup before proceeding to Lab 2.
 
     ![Open Data Reporter](images/01-open-data-reporter.png " ")
 
@@ -56,7 +56,7 @@ The dataset is the governance boundary. It exposes only the database objects req
 
     ![Verify the Data Reporter authentication scheme](images/02-data-reporter-home.png " ")
 
-> **Troubleshooting:** If Data Reporter redirects to an unexpected identity provider or the workshop accounts cannot sign in, stop here and ask the instance administrator to verify which Data Reporter authentication scheme is marked Current.
+> **Troubleshooting:** If Data Reporter redirects to an unexpected identity provider or the workshop accounts cannot sign in, stop here and ask the instance administrator to verify the selected Data Reporter authentication scheme and its compatibility with the workshop accounts.
 
 ## Summary
 

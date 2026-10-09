@@ -21,9 +21,13 @@ In this lab, you will:
 - Hide the computed helper column.
 - Render `STATUS` as a subtle Badge whose state comes from `STATUS_STATE`.
 
+Use the Lab 2 snapshot, **15_02 : Employee Self-Service Portal** (App **154**), not the application used in Lab 1. Return to the App Builder application list and check the application number before starting.
+
+For runtime validation, use the workshop-supplied employee account whose username matches `TMS_EMPLOYEES.EMAIL` and which has onboarding tasks. The App Builder developer account alone may not have matching employee data; ask your instructor for the assigned ESS test account if needed.
+
 ## Task 1: Open My Onboarding Tasks
 
-1. In App Builder, open **15_02: Employee Self-Service Portal** (**App 154**).
+1. In App Builder, open **Employee Self-Service Portal**.
 
 2. In the Pages report, select **My Onboarding Tasks**.
 
@@ -39,9 +43,9 @@ In this lab, you will:
 
     ![Set the region to Interactive Report](images/lab2-03-set-interactive-report.png " ")
 
-2. Under **Source**, set **Type** to **SQL Query**.
+    The Interactive Report is a read-only presentation of the tasks; it does not retain the Interactive Grid's inline editing. This task changes the report display, not the separate Onboarding Task form.
 
-3. Replace the existing SQL Query with the following code:
+2. Replace the existing SQL Query with the following code:
 
     ```sql
     SELECT t.*,
@@ -89,35 +93,30 @@ The `CASE` expression separates business meaning from presentation. The query de
 
     ![Set STATUS to Badge](images/lab2-08-set-status-badge.png " ")
 
-3. Under **Heading**, set **Heading** to `Status`.
-
-4. Under **Settings**, configure:
+3. Under **Settings**, configure:
 
     | Property | Value |
     | --- | --- |
     | Label | `Status` |
     | Value | `STATUS` |
     | State | `STATUS_STATE` |
-    | Display Label | Off |
     | Style | `Subtle` |
 
     ![Map STATUS_STATE to the badge state](images/lab2-09-map-status-state.png " ")
 
     ![Select the Subtle badge style](images/lab2-10-set-badge-subtle.png " ")
 
-5. Keep the status text visible. The text communicates meaning even when a user cannot distinguish the badge colors.
-
-6. Select **Save and Run Page**.
+4. Click **Save and Run Page**.
 
     ![Save and run My Onboarding Tasks](images/lab2-11-save-run-page.png " ")
 
-7. Sign in if prompted. Confirm that:
+5. Sign in if prompted. Confirm that:
 
     - Each task displays a text badge in the Status column.
-    - Completed, blocked, overdue, and other tasks use different semantic states.
+    - The statuses present in your test data use the corresponding semantic states. A state cannot be runtime-tested unless a matching task exists; do not expect all four states in every sample dataset.
     - The report remains readable in both ESS Light and ESS Dark.
 
-    A blank report is valid when the signed-in user has no matching employee or onboarding-task rows. The badge configuration can still be verified in Page Designer.
+    A blank report checks only the empty-data case; it does not validate the badges. If no tasks appear, sign in with the assigned employee test account and repeat this check. Verify badge text and states on actual task rows before considering runtime validation complete.
 
 ## Summary
 

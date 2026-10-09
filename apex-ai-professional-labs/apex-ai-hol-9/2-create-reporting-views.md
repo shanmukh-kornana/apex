@@ -136,7 +136,7 @@ The views present stable, human-readable reporting columns and keep joins and ca
 
     - **Script Name** is `module9_create_reporting_views.sql`.
     - **Number of Statements** is `4`.
-    - **Schema** is `WKSP_APEXLL`.
+    - **Schema** is the schema containing your workshop's `TMS_` tables. The example screenshot uses `WKSP_APEXLL`; use your assigned schema if its name differs.
 
     ![Run the reporting views script](images/48-run-reporting-views-script.png " ")
 
@@ -151,7 +151,7 @@ The views present stable, human-readable reporting columns and keep joins and ca
 
     ![Review the reporting views script results](images/48-review-reporting-views-script-results.png " ")
 
-    The verification query returns `V_CANDIDATE_PIPELINE`, `V_EMPLOYEES_SUMMARY`, and `V_LEAVE_SUMMARY` with a status of `VALID`.
+    Open **SQL Workshop**, select **SQL Commands**, and select the schema used for the script. Copy only the final `SELECT object_name, status ...` statement from Point 4 into the command editor and select **Run**. Inspect the returned **OBJECT_NAME** and **STATUS** values: `V_CANDIDATE_PIPELINE`, `V_EMPLOYEES_SUMMARY`, and `V_LEAVE_SUMMARY` must each have a status of `VALID`. A message of `3 rows selected.` alone is not sufficient. Resolve any script errors with your instructor before creating the dataset.
 
 ## Task 3: Create the HR Analytics Dataset
 

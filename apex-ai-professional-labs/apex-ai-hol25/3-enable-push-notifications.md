@@ -15,7 +15,6 @@ Estimated Time: 12 minutes
 
 ### Prerequisites
 
-- Complete Labs 1 and 2 using ESS.
 - Have the **Task Overdue** automation created in Module 16 and an employee account for ESS.
 - Use a device and browser that support web push. Open ESS over HTTPS; install it if required by the device.
 - Ensure the instance's email configuration supports the automation's existing **Send E-Mail** action. An error in that action can stop execution before the push action runs.
@@ -36,7 +35,7 @@ Estimated Time: 12 minutes
 
 ## Task 2: Configure Push Notification Credentials
 
-1. Under **Credentials**, click **Generate Credentials** to create a public/private key pair. If a credential is already selected, keep it and continue to Step 3. Regenerating the keys requires users to subscribe again.
+1. Under **Credentials**, click **Generate Credentials** to create a public/private key pair. Regenerating the keys requires users to subscribe again.
 
     ![Generate Credentials](images/3_2_1_generate_credentials.png " ")
 
@@ -161,6 +160,7 @@ Estimated Time: 12 minutes
 1. Before running the automation, review the tasks selected by its query. Open **SQL Workshop → SQL Commands** and run the following read-only query. Use the same conditions as the automation if your Module 16 query differs.
 
     ```sql
+    <copy>
     SELECT t.task_id,
            t.task_name,
            t.due_date,
@@ -170,11 +170,8 @@ Estimated Time: 12 minutes
      WHERE t.due_date < TRUNC(SYSDATE)
        AND t.status NOT IN ('Completed', 'Cancelled', 'Overdue')
      ORDER BY e.email, t.task_id;
+    </copy>
     ```
-
-    Confirm that at least one returned task belongs to the employee subscribed in Task 4. Running the automation updates task status and executes the email and push actions for every returned row. Tasks already marked **Overdue** are excluded; use a fresh eligible task if the query returns no rows.
-
-    ![Run the eligibility query; this example has no eligible tasks](images/3_7_1_review_matching_rows.png " ")
 
 2. Return to **App Builder → Employee Self-Service Portal → Shared Components → Automations → Task Overdue**. Click **Save and Run** to execute the automation in the background. Keep its existing schedule configuration for this manual test.
 

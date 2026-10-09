@@ -73,13 +73,13 @@ Keep the following rules in mind:
 
     ![Review editor and viewer role assignments](images/18-app-editor-viewer-roles.png " ")
 
-4. If the target assignments already exist, do not create duplicates. You can verify or update them in the next lab.
+4. If the target assignments already exist, do not create duplicates. Verify or update them in Task 5 of this lab, then continue to Lab 4.
 
 ## Task 4: Create the Data Reporter Administrator
 
-1. Return to the Data Reporter home page and select **Manage Users**.
+1. Return to the Data Reporter home page and select **Manage Users**. If `DR_ADMIN` already exists, open its username, verify **User is administrator** is enabled, and select **Apply Changes** if you changed it. Skip Points 2 and 3 and continue to Point 4.
 
-2. Select **Create User**.
+2. Select **Create**.
 
     ![Create a Data Reporter user](images/13-create-data-reporter-user.png " ")
 
@@ -99,13 +99,14 @@ Keep the following rules in mind:
 
 ## Task 5: Create the Application Editor and Viewer
 
-1. Open **HR Analytics App**, and select **Manage Users**.
+1. Open **HR Analytics App**, and select **Manage Users**. For an account already assigned to this application, open its username and verify the role under **Reporting Applications**. Use the application's **Actions** menu to switch to **Editor** or **Viewer** if needed, and select **Apply Changes**. Skip the creation steps for any account whose assignment is already correct.
 
-2. Select **Create User**.
+2. If `DR_EDITOR` is not assigned to this application, select **Create**; otherwise continue to Point 4.
 
-3. Create the editor account:
+3. Create or assign the editor account:
 
-    - For **User**, select **Create New**.
+    - If `DR_EDITOR` already exists in the workspace, select it in **User** and assign it to this application as **Editor**. Do not select **Create New** or enter a second username. Select **Create User** to add the assignment, then continue to Point 4.
+    - If the account does not exist, for **User**, select **Create New** and complete the following fields.
     - For **Role**, select **Editor**.
     - For **Username**, enter `DR_EDITOR`.
     - Enter the email address and workshop password.
@@ -114,11 +115,12 @@ Keep the following rules in mind:
 
     ![Configure the DR_EDITOR account](images/19-configure-dr-editor.png " ")
 
-4. Select **Create User** again.
+4. If `DR_USER` is not assigned to this application, select **Create**; otherwise continue to Point 6.
 
-5. Create the viewer account:
+5. Create or assign the viewer account:
 
-    - For **User**, select **Create New**.
+    - If `DR_USER` already exists in the workspace, select it in **User** and assign it to this application as **Viewer**. Do not select **Create New** or enter a second username. Select **Create User** to add the assignment, then continue to Point 6.
+    - If the account does not exist, for **User**, select **Create New** and complete the following fields.
     - For **Role**, select **Viewer**.
     - For **Username**, enter `DR_USER`.
     - Enter the email address and workshop password.

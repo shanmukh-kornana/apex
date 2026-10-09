@@ -875,11 +875,9 @@
     "task": 7,
     "point": 1,
     "text": "Before running the automation, review the tasks selected by its query. Open **SQL Workshop \u2192 SQL Commands** and run the following read-only query. Use the same conditions as the automation if your Module 16 query differs.",
-    "status": "Captured",
-    "images": [
-      "3_7_1_review_matching_rows.png"
-    ],
-    "note": "Read-only eligibility query executed successfully and returned no rows. Fresh eligible task required; no task was changed."
+    "status": "Text only (requested)",
+    "images": [],
+    "note": "Copyable SQL snippet provided. Eligibility-query screenshot removed at the user\u2019s request."
   },
   {
     "lab": 3,
@@ -1131,55 +1129,44 @@
     "lab": 4,
     "task": 6,
     "point": 1,
-    "text": "Open [Oracle APEX To Go](https://apex.oracle.com/go/apextogo) in a new tab. Set the device toolbar to the same **390 \u00d7 844** mobile view. Review the **Welcome** screen and its primary **Next** button.",
+    "text": "Open [Oracle APEX To Go](https://apex.oracle.com/go/apextogo) in a new tab. Set the device toolbar to **Responsive**, with a width of **390** and a height of **844**. The **Welcome** screen introduces the mobile sample application. Click **Next** to continue the tour.",
     "status": "Captured",
     "images": [
       "4_6_1_to_go_welcome.png"
     ],
-    "note": "Public welcome screen only; no sample sign-in or authenticated device features inspected."
+    "note": "Guided tour of the public welcome flow. No review comments, improvement exercise, sample sign-in, or authenticated feature tour."
   },
   {
     "lab": 4,
     "task": 6,
     "point": 2,
-    "text": "Click **Next** to open **Discover**. Review the short explanation, illustration, and spacing around the **Next** button.",
+    "text": "On **Discover**, read the introduction to the mobile patterns available in the sample application. Click **Next** to continue.",
     "status": "Captured",
     "images": [
       "4_6_2_to_go_discover.png"
     ],
-    "note": "Public welcome screen only; no sample sign-in or authenticated device features inspected."
+    "note": "Guided tour of the public welcome flow. No review comments, improvement exercise, sample sign-in, or authenticated feature tour."
   },
   {
     "lab": 4,
     "task": 6,
     "point": 3,
-    "text": "Click **Next** to open **Get Started**. Review how the final welcome screen presents one clear primary action. This exercise ends with the public welcome screens.",
+    "text": "On **Get Started**, click **Go!** to continue to the application. Sign in if prompted.",
     "status": "Captured",
     "images": [
       "4_6_3_to_go_get_started.png"
     ],
-    "note": "Public welcome screen only; no sample sign-in or authenticated device features inspected."
+    "note": "Get Started screenshot reused. Application home screenshot supplied by the user in Step 4; sign-in transition was not replayed."
   },
   {
     "lab": 4,
     "task": 6,
     "point": 4,
-    "text": "Record two or three improvements for ESS and the page each improvement would affect. Include any clipped text, overlapping controls, or errors found in Tasks 2\u20135. Use the table below as a starting point; the [example review notes](files/lab4-review-notes.html) show one completed review.",
+    "text": "Explore the **APEXToGo** home screen in mobile view.",
     "status": "Captured",
     "images": [
-      "4_6_4_record_improvements.png"
+      "4_6_4_to_go_home.png"
     ],
-    "note": "Screenshot of a clearly labelled workshop example record, not an ESS application screen."
-  },
-  {
-    "lab": 4,
-    "task": 7,
-    "point": 1,
-    "text": "Record your browser, device, and viewport size. Review the checks below using **Pass**, **Needs fix**, or **Not tested**, and add the observed result. Repeat the layout and touch checks on an actual supported phone when available. Device emulation alone does not verify PWA installation, operating-system shortcuts, or push notification delivery. The [example verification record](files/lab4-verification-record.html) illustrates how to record incomplete checks.",
-    "status": "Captured",
-    "images": [
-      "4_7_1_verification_record.png"
-    ],
-    "note": "Screenshot of a clearly labelled example verification record; pending native and device checks remain explicit."
+    "note": "User-supplied APEXToGo home screenshot cropped to the complete application; red boxes mark search, categories, and bottom navigation. No application login or new runtime test performed."
   }
 ]

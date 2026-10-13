@@ -194,5 +194,5 @@ You may now **proceed to the next module**.
 
 ## Acknowledgements
 
-- **Author** - Shanmukh Kornana
-- **Last Updated By/Date** - Shanmukh Kornana, July 2026
+- **Author** - gendev
+- **Last Updated By/Date** - gendev, July 2026

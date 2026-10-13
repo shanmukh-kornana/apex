@@ -19,9 +19,9 @@ In this lab, you will:
 
 App Builder is the main development area for creating, running, and maintaining APEX applications.
 
-1. On the APEX workspace home page, select **App Builder**.
+1. On the APEX workspace home page, click **App Builder**.
 
-    ![Select App Builder](images/111_click_App_Builder.png " ")
+    ![Click App Builder](images/111_click_App_Builder.png " ")
 
 2. Review the App Builder home page. The top actions let you create or import applications, open workspace utilities, and review workspace activity. Existing applications appear below them.
 
@@ -44,17 +44,17 @@ App Builder is the main development area for creating, running, and maintaining 
 
     ![Review the application home page](images/114_show_inside_Application.png " ")
 
-5. Select the **APEX** logo in the upper-left corner to return to the workspace home page.
+5. Click the **APEX** logo in the upper-left corner to return to the workspace home page.
 
     ![Return to the APEX workspace home page](images/115_back_to_APEX_Home.png " ")
 
 SQL Workshop is where developers inspect database objects, run SQL and PL/SQL, manage scripts, and use database utilities.
 
-6. On the workspace home page, select **SQL Workshop**.
+6. On the workspace home page, click **SQL Workshop**.
 
-    ![Select SQL Workshop](images/121_Open_SLQ_Workshop.png " ")
+    ![Click SQL Workshop](images/121_Open_SLQ_Workshop.png " ")
 
-7. Select **Object Browser**.
+7. Click **Object Browser**.
 
     ![Open Object Browser](images/122_click_object_browser.png " ")
 
@@ -66,7 +66,7 @@ SQL Workshop is where developers inspect database objects, run SQL and PL/SQL, m
 
     ![Return to SQL Workshop](images/124_back_to_SQL_workshop.png " ")
 
-10. Select **SQL Commands**.
+10. Click **SQL Commands**.
 
     ![Open SQL Commands](images/125_open_SQL_commands.png " ")
 
@@ -74,7 +74,7 @@ SQL Workshop is where developers inspect database objects, run SQL and PL/SQL, m
 
     ![Return to SQL Workshop](images/126_click_back_SQL_workshop.png " ")
 
-12. From SQL Workshop, select **SQL Scripts**.
+12. From SQL Workshop, click **SQL Scripts**.
 
     ![Open SQL Scripts](images/128_open_SQL_scripts.png " ")
 
@@ -86,25 +86,25 @@ SQL Workshop is where developers inspect database objects, run SQL and PL/SQL, m
 
     ![Return from SQL Scripts](images/1210_back_to_SQL_workshop.png " ")
 
-15. Select **Utilities**.
+15. Click **Utilities**.
 
     ![Open SQL Workshop Utilities](images/1211_open_Utilities.png " ")
 
-16. Review the available tools, including Data Workshop, Data Generator, Query Builder, Quick SQL, DDL generation, and recycle-bin management. Click the return icon to return to the **SQL Workshop** home page, then select the **APEX** logo to return to the workspace home page.
+16. Review the available tools, including Data Workshop, Data Generator, Query Builder, Quick SQL, DDL generation, and recycle-bin management. Click the return icon to return to the **SQL Workshop** home page, then click the **APEX** logo to return to the workspace home page.
 
     ![Review SQL Workshop Utilities](images/1212_back_SQL_workshop.png " ")
 
 Team Development provides issue tracking inside APEX. Its **Utilities** page can be used to manage deleted issues, templates, milestones, and labels, view uploaded files, purge data, reassign issues and issue owners, remove a milestone or label from all issues, and manage user notifications.
 
-17. On the workspace home page, select **Team Development** from the right-side panel.
+17. On the workspace home page, click **Team Development** from the right-side panel.
 
-    ![Select Team Development](images/131_click_team_development.png " ")
+    ![Click Team Development](images/131_click_team_development.png " ")
 
 18. Review the Issues page and its summary counters. Teams can use this area to record issues, assign work, discuss progress, and capture feedback.
 
     ![Review Team Development](images/133_show_team_development.png " ")
 
-19. Select the **APEX** logo to return to the workspace home page.
+19. Click the **APEX** logo to return to the workspace home page.
 
     ![Return to the APEX home page](images/132_back_to_APEX_home.png " ")
 
@@ -112,7 +112,7 @@ Team Development provides issue tracking inside APEX. Its **Utilities** page can
 
 Gallery applications provide working examples and reusable starting points.
 
-1. On the workspace home page, select **Gallery**.
+1. On the workspace home page, click **Gallery**.
 
     ![Open Gallery](images/211_open_gallery.png " ")
 
@@ -120,7 +120,7 @@ Gallery applications provide working examples and reusable starting points.
 
     ![Browse Gallery sample apps](images/311_click_install_APEGOTO_app.png " ")
 
-3. Select **Starter Apps**. Starter apps provide a smaller foundation that can be adapted for a business application. Notice that Gallery also separates Utility Apps and Custom Apps.
+3. Click **Starter Apps**. Starter apps provide a smaller foundation that can be adapted for a business application. Notice that Gallery also separates Utility Apps and Custom Apps.
 
     ![Browse Gallery starter apps](images/213_show_starter_apps.png " ")
 
@@ -128,27 +128,27 @@ Gallery applications provide working examples and reusable starting points.
 
 This flow uses **APEXToGo**, the reference application shown in the screenshots.
 
-1. Return to **Sample Apps** and locate **APEXToGo**. If the card shows **Install**, select it. If it already shows **Run**, continue with point 2.
+1. Return to **Sample Apps** and locate **APEXToGo**. If the card shows **Install**, click it. If it already shows **Run**, continue with point 2.
 
     ![Install APEXToGo](images/311_click_install_APEGOTO_app.png " ")
 
-2. When installation finishes, select the **Run** icon on the APEXToGo card.
+2. When installation finishes, click the **Run** icon on the APEXToGo card.
 
     ![Run the installed APEXToGo application](images/312_click_run_APEGOTO_app.png " ")
 
-3. On the first welcome page, read the message and select **Next**.
+3. On the first welcome page, read the message and click **Next**.
 
     ![Continue from the first welcome page](images/313_click_Next.png " ")
 
-4. Review the mobile-patterns message and select **Next**.
+4. Review the mobile-patterns message and click **Next**.
 
     ![Continue from the mobile-patterns page](images/314_click_Next.png " ")
 
-5. Select **Go!** to open the application.
+5. Click **Go!** to open the application.
 
     ![Finish the APEXToGo introduction](images/315_click_Go.png " ")
 
-6. If prompted, enter your workspace username and select **Sign In**.
+6. If prompted, enter your workspace username and click **Sign In**.
 
     ![Sign in to APEXToGo](images/316_enter_username.png " ")
 
@@ -158,7 +158,7 @@ This flow uses **APEXToGo**, the reference application shown in the screenshots.
 
 You are not building or modifying this application. Use it as a reference for the structures you will create later.
 
-8. Select **Search** in the primary navigation.
+8. Click **Search** in the primary navigation.
 
     ![Open application search](images/321_click_search.png " ")
 
@@ -166,23 +166,23 @@ You are not building or modifying this application. Use it as a reference for th
 
     ![Search for grill restaurants](images/323_search_grill.png " ")
 
-10. Select **APEX Mex Grill** from the search results.
+10. Click **APEX Mex Grill** from the search results.
 
-    ![Select APEX Mex Grill](images/323_search_select_grill.png " ")
+    ![Click APEX Mex Grill](images/323_search_select_grill.png " ")
 
 11. Review the restaurant page. Notice the page header, restaurant summary, menu sections, item descriptions, prices, and compact action controls.
 
     ![Review the restaurant and menu page](images/324_show_mexican_grill.png " ")
 
-12. Select **Orders**. Review how the page separates in-progress orders from past orders and presents status information clearly.
+12. Click **Orders**. Review how the page separates in-progress orders from past orders and presents status information clearly.
 
     ![Review the Orders page](images/325_view_orders.png " ")
 
-13. Select **Search**, enter `grill`, select **APEX Mex Grill**, and then select the **+** icon for any item. Review the item-detail drawer. Notice the image, quantity control, option, note field, and primary **Add to Cart** action.
+13. Click **Search**, enter `grill`, click **APEX Mex Grill**, and then click the **+** icon for any item. Review the item-detail drawer. Notice the image, quantity control, option, note field, and primary **Add to Cart** action.
 
     ![Review item details and cart controls](images/326_add_items.png " ")
 
-14. Close the item-detail drawer, then select **Account** in the primary navigation. Review how related account actions are grouped in a single panel.
+14. Close the item-detail drawer, then click **Account** in the primary navigation. Review how related account actions are grouped in a single panel.
 
     ![Review account management](images/327_view_account_management.png " ")
 
@@ -194,5 +194,5 @@ You may now **proceed to the next module**.
 
 ## Acknowledgements
 
-- **Author** - gendev
-- **Last Updated By/Date** - gendev, July 2026
+- **Author** - Roopesh Thokala, Principal Product Manager & Shanmukh Kornana, Principal Product Manager
+- **Last Updated By/Date** - Shanmukh Kornana.

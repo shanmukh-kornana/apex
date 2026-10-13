@@ -46,5 +46,5 @@ In this workshop, you will:
 
 ## Acknowledgements
 
-- **Author** - gendev
-- **Last Updated By/Date** - gendev, July 2026
+- **Author** - Roopesh Thokala, Principal Product Manager & Shanmukh Kornana, Principal Product Manager
+- **Last Updated By/Date** - Shanmukh Kornana.
